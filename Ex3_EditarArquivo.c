@@ -2,6 +2,7 @@
 main(){
     FILE *fp;
     char s[80];
+    
     /*Para escrever um arquivo do zero, usar "w"
     Para adicionar novas linhas em um arquivo já escrito, usar "a"*/
     
