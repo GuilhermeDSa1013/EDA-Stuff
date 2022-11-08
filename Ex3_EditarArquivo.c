@@ -2,7 +2,10 @@
 main(){
     FILE *fp;
     char s[80];
-    fp = fopen("Poem.txt", "a");
+    /*Para escrever um arquivo do zero, usar "w"
+    Para adicionar novas linhas em um arquivo já escrito, usar "a"*/
+    
+    fp = fopen("Poem.txt", "w");
 
     if(fp == NULL){
         printf("Unable to open file.\n");

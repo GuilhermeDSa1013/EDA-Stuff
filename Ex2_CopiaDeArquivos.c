@@ -2,7 +2,7 @@
 main(){
     FILE *fOriginal, *fCopia;
     char ch;
-    fOriginal = fopen("teste.txt", "r");
+    fOriginal = fopen("Poem.txt", "r");
     
     if (fOriginal == NULL){
         puts ("Nao foi possivel abrir o arquivo!!!");

@@ -7,7 +7,7 @@ main(){
     int numeroDeTabs;
     int numeroDeLinhas;
 
-    fp = fopen("teste.txt", "r");
+    fp = fopen("Poem.txt", "r");
 
     if(fp == NULL){
         printf("Unable to open file.\n");
