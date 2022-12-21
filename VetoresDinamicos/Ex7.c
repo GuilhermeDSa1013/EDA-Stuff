@@ -85,7 +85,6 @@ main(){
         }
     } while (op != 4);
 
+    free(v);
     system("pause");
-
-    
 }

@@ -41,4 +41,7 @@ main(){
         printf("Falso, sao diferentes.");
     else
         printf("Verdadeiro, sao iguais.");
+
+    free(vA);
+    free(vB);
 }
