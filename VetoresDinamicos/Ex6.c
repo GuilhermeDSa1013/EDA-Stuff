@@ -31,11 +31,11 @@ main(){
     scanf("%d", &ptamb);
     int *vB = CriarVetInt(ptamb);
 
-    vA[0] = 1;
-    vA[1] = 2;
+    vA[0] = 2;
+    vA[1] = 1;
 
-    vB[0] = 2;
-    vB[1] = 1;
+    vB[0] = 1;
+    vB[1] = 2;
 
     if(!EIgual(vA, vB, ptama, ptamb))
         printf("Falso, sao diferentes.");
