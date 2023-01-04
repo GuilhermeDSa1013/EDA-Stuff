@@ -1,13 +1,11 @@
 #include<stdio.h>
 #include<stdlib.h>
 
-//Definindo uma Struct que conterá os valores de cada linha do arquivo
 typedef struct{
-    char comment[2000];
+    int indice;
     int likes;
 } Linha;
 
-//Código de ordenação QuickSort(Decrescente)
 void quicksort(Linha vet[], int esq, int dir){
     int pivo = esq, aux, j;
     Linha e;
@@ -15,14 +13,14 @@ void quicksort(Linha vet[], int esq, int dir){
         j = i;                      
         if(vet[j].likes > vet[pivo].likes){     
             aux = vet[j].likes;
-            e = vet[j];           
+            e.indice = vet[j].indice;           
             while(j > pivo){           
                 vet[j].likes = vet[j-1].likes;
-                vet[j] = vet[j-1];
+                vet[j].indice = vet[j-1].indice;
                 j--;                    
             }
             vet[j].likes = aux; 
-            vet[j] = e;
+            vet[j].indice = e.indice;
             pivo++;                    
         }
     }
@@ -35,10 +33,12 @@ void quicksort(Linha vet[], int esq, int dir){
 }
 
 main(){
-    FILE *fp, *fc; 
+    FILE *fp, *fc, *fs; 
     Linha l, *a;
-    a = (Linha*)malloc(62000*sizeof(Linha));
-    int i = 0, qtd = 0;
+    a = (Linha*)malloc(45505*sizeof(Linha));
+    int i = 0, qtd = 0, *b;
+    b = (int*)malloc(45505*sizeof(int));
+    
 
     //Abrindo arquivo dos dados
     fp = fopen("teste.txt", "r");
@@ -58,34 +58,33 @@ main(){
     
     //Percorrendo o arquivo
     while(1){
-        char coment, ch;
-        int likes;
-        coment = fscanf(fp, "%s", l.comment);
-        likes = fscanf(fp, "%d", &l.likes);
+        char result;
+        int ind;
+        result = fscanf(fp, "%d %d", &l.indice, &l.likes);
 
-        if (likes == EOF)
-            break;    
+        if (result == EOF)
+            break;     
 
+        ind = l.indice;
         a[i] = l;
+        b[i] = ind;
         i++;
-        qtd++; 
-        
-    }
-    
-    //Aplicando QuickSort
-    quicksort(a, 0, qtd-1);
+        qtd++;
 
-    //Gravando informações no arquivo de saída
-    fprintf(fc, "Quantidade | Comentario\n");
+    }
+
+    quicksort(a, 0, qtd-1);
+    fprintf(fc, "Quantidade | Indice\n");
+
     for(int j = 0; j < qtd; j++){
         if (a[j].likes < 10)
-            fprintf(fc, "%d%10s| %s\n", a[j].likes, " ", a[j].comment);
+            fprintf(fc, "%d%10s| %d\n", a[j].likes, " ", a[j].indice);
         if (a[j].likes >= 10 && a[j].likes < 100)
-            fprintf(fc, "%d%9s| %s\n", a[j].likes, " ", a[j].comment);
+            fprintf(fc, "%d%9s| %d\n", a[j].likes, " ", a[j].indice);
         if (a[j].likes >= 100 && a[j].likes < 1000)
-            fprintf(fc, "%d%8s| %s\n", a[j].likes, " ", a[j].comment);
+            fprintf(fc, "%d%8s| %d\n", a[j].likes, " ", a[j].indice);
         if (a[j].likes >= 1000)
-            fprintf(fc, "%d%7s| %s\n", a[j].likes, " ", a[j].comment);
+            fprintf(fc, "%d%7s| %d\n", a[j].likes, " ", a[j].indice);
     }
 
     printf("Arquivo gerado com sucesso!!!\n");
@@ -93,4 +92,5 @@ main(){
     fclose(fp);
     fclose(fc);
     free(a);
+    free(b);
 }
