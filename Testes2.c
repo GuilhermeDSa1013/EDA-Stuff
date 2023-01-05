@@ -35,9 +35,8 @@ void quicksort(Linha vet[], int esq, int dir){
 main(){
     FILE *fp, *fc, *fs; 
     Linha l, *a;
-    a = (Linha*)malloc(45505*sizeof(Linha));
+    a = (Linha*)malloc(62000*sizeof(Linha));
     int i = 0, qtd = 0, *b;
-    b = (int*)malloc(45505*sizeof(int));
     
 
     //Abrindo arquivo dos dados
@@ -59,17 +58,15 @@ main(){
     //Percorrendo o arquivo
     while(1){
         char result;
-        int ind;
         result = fscanf(fp, "%d %d", &l.indice, &l.likes);
-
+        if(l.likes != 0){
+            a[i] = l;
+            i++;
+            qtd++;
+        }
         if (result == EOF)
             break;     
 
-        ind = l.indice;
-        a[i] = l;
-        b[i] = ind;
-        i++;
-        qtd++;
 
     }
 
@@ -92,5 +89,5 @@ main(){
     fclose(fp);
     fclose(fc);
     free(a);
-    free(b);
+
 }
