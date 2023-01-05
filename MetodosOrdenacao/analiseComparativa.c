@@ -27,21 +27,28 @@ void selectionSort(Linha vet[], int tam){
         e = vet[i];
         min = smallerIndex(vet, tam, i);
         aux = vet[i].populacao;
+        e = vet[i];
         vet[i].populacao = vet[min].populacao;
+        vet[i] = vet[min];
         vet[min].populacao = aux;
-        e = vet[min];
+        vet[min] = e; 
     }
 }
 
 //InsertionSort
-void insertionSort(int list[], int n){
+void insertionSort(Linha list[], int n){
     int i, j;
     int next;
+    Linha e;
     for (i=1; i<n; i++) {
-        next= list[i];
-        for (j=i-1; j>=0&&next<list[j];j--)
+        next = list[i].populacao;
+        e = list[i];
+        for (j=i-1; j>=0 && next<list[j].populacao;j--){
+            list[j+1].populacao = list[j].populacao;
             list[j+1] = list[j];
-        list[j+1] = next;
+        }
+        list[j+1].populacao = next;
+        list[j+1] = e;
     }
 }
 
@@ -53,10 +60,33 @@ void bubbleSort(Linha vet[], int tam){
         for(j=0; j < i; j++) //Faz trocas até posição i
             if( vet[j].populacao > vet[j+1].populacao ){
             aux = vet[j].populacao;
+            e = vet[j];
             vet[j].populacao = vet[j+1].populacao;
+            vet[j] = vet[j+1];
             vet[j+1].populacao = aux;
             vet[j+1] = e;
             }
+    }
+}
+
+//QuickSort
+int separa (Linha v[], int p, int r) {
+    int c = v[r].populacao; // pivô
+    int t, j = p;
+    for (int k = p; k < r; ++k)
+        if (v[k].populacao <= c) {
+        t = v[j].populacao, v[j].populacao = v[k].populacao, v[k].populacao = t;
+        ++j;
+        }
+    t = v[j].populacao, v[j].populacao = v[r].populacao, v[r].populacao = t;
+    return j;
+}
+
+void quicksort (Linha v[], int p, int r){
+    if (p < r) {
+        int j = separa (v, p, r);
+        quicksort (v, p, j-1);
+        quicksort (v, j+1, r);
     }
 }
 
@@ -73,7 +103,7 @@ main(){
         exit(0);
     }
 
-    fc = fopen("Arquivo de saida.txt", "w");
+    fc = fopen("Arquivo de Saida.txt", "w");
     if (fc == NULL){
         puts ("Erro na abertura do arquivo!");
         system("pause");
@@ -85,13 +115,16 @@ main(){
         result = fscanf(fp, "%d %s %s %s %d %s", &l.ibge, l.uf, l.municipio, l.regiao, &l.populacao, l.porte);
         if (result == EOF)
             break;
-        
         a[i] = l;
         i++;
         qtd++;      
     }
 
-    bubbleSort(a, 5570);
+    selectionSort(a,5570);
+    //insertionSort(a, 5570);
+    //bubbleSort(a, 5570);
+    //quicksort(a, 0, 5570);
+
     for (int j = 0; j < qtd; j++){
         fprintf(fc, "%d - %s - %s - %s - %d - %s\n", a[j].ibge, a[j].uf, a[j].municipio, a[j].regiao, a[j].populacao, a[j].porte);
     }
@@ -99,7 +132,7 @@ main(){
     printf("Arquivo gerado com sucesso!!!\n");
 
     fclose(fp);
-    fclose(fc);
+    fclose(fc);;
     free(a);
 
     
