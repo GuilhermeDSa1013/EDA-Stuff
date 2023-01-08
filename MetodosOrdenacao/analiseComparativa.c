@@ -73,12 +73,23 @@ void bubbleSort(Linha vet[], int tam){
 int separa (Linha v[], int p, int r) {
     int c = v[r].populacao; // pivô
     int t, j = p;
+    Linha e;
     for (int k = p; k < r; ++k)
         if (v[k].populacao <= c) {
-        t = v[j].populacao, v[j].populacao = v[k].populacao, v[k].populacao = t;
+        t = v[j].populacao;
+        e = v[j];
+        v[j].populacao = v[k].populacao;
+        v[j] = v[k];
+        v[k].populacao = t;
+        v[k] = e;
         ++j;
         }
-    t = v[j].populacao, v[j].populacao = v[r].populacao, v[r].populacao = t;
+    t = v[j].populacao;
+    e = v[j];
+    v[j].populacao = v[r].populacao;
+    v[j] = v[r];
+    v[r].populacao = t;
+    v[r] = e;
     return j;
 }
 
@@ -90,6 +101,33 @@ void quicksort (Linha v[], int p, int r){
     }
 }
 
+/*
+void quicksort(Linha vet[], int esq, int dir){
+    int pivo = esq, aux, j;
+    Linha e;
+    for(int i=esq+1;i<=dir;i++){        
+        j = i;                      
+        if(vet[j].populacao < vet[pivo].populacao){     
+            aux = vet[j].populacao;
+            e = vet[j];           
+            while(j > pivo){           
+                vet[j].populacao = vet[j-1].populacao;
+                vet[j] = vet[j-1];
+                j--;                    
+            }
+            vet[j].populacao = aux; 
+            vet[j] = e;
+            pivo++;                    
+        }
+    }
+    if(pivo-1 >= esq){              
+        quicksort(vet,esq,pivo-1);      
+    }
+    if(pivo+1 <= dir){              
+        quicksort(vet,pivo+1,dir);      
+    }
+}
+*/
 main(){
     FILE *fp, *fc;
     Linha l, *a;
@@ -120,10 +158,10 @@ main(){
         qtd++;      
     }
 
-    selectionSort(a,5570);
+    //selectionSort(a,5570);
     //insertionSort(a, 5570);
     //bubbleSort(a, 5570);
-    //quicksort(a, 0, 5570);
+    //quicksort(a, 0, 5569);
 
     for (int j = 0; j < qtd; j++){
         fprintf(fc, "%d - %s - %s - %s - %d - %s\n", a[j].ibge, a[j].uf, a[j].municipio, a[j].regiao, a[j].populacao, a[j].porte);
