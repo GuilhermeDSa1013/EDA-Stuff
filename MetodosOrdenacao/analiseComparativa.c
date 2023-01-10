@@ -128,6 +128,9 @@ void quicksort(Linha vet[], int esq, int dir){
     }
 }
 */
+
+
+
 main(){
     FILE *fp, *fc;
     Linha l, *a;
@@ -162,6 +165,8 @@ main(){
     //insertionSort(a, 5570);
     //bubbleSort(a, 5570);
     //quicksort(a, 0, 5569);
+    quicksort(v, 0, 9);
+
 
     for (int j = 0; j < qtd; j++){
         fprintf(fc, "%d - %s - %s - %s - %d - %s\n", a[j].ibge, a[j].uf, a[j].municipio, a[j].regiao, a[j].populacao, a[j].porte);

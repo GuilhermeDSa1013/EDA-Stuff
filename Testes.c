@@ -34,6 +34,20 @@ void quicksort(Linha vet[], int esq, int dir){
     }
 }
 
+void le_comentario(FILE *fp, char *buffer){
+    char car;
+    int pqtdelidos;
+    pqtdelidos = fscanf(fp, "%100s", buffer);
+    while(car != '\n'){
+        car = fgetc(fp);
+        if (car == EOF)
+            break;
+    }
+
+    
+}
+
+
 main(){
     FILE *fp, *fc; 
     Linha l, *a, *b;
@@ -57,15 +71,21 @@ main(){
         exit(0);
     }
     
+   
+
     //Percorrendo o arquivo
     while(1){
-        char coment;
         int likes;
         likes = fscanf(fp, "%d", &l.likes);
-        coment = fscanf(fp, "%100s", l.comment);
+        
+    
+        le_comentario(fp, l.comment);
+       // coment = fscanf(fp, "%100s", l.comment);
 
-        if (coment == EOF)
-            break;    
+        if(likes == EOF){
+            break;
+        }
+
         if(l.likes != 0){
             a[i] = l;
             i++;
@@ -77,7 +97,6 @@ main(){
             k++;
             qtd0++;
         }
-        
     }
     
     //Aplicando QuickSort
@@ -98,7 +117,7 @@ main(){
        
     
     for(int z = 0; z < qtd0; z++){
-        fprintf(fc, "%d%11s| %s\n", b[z].likes, " ", b[z].comment);
+        fprintf(fc, "%d%10s| %s\n", b[z].likes, " ", b[z].comment);
     }
     
     printf("Arquivo gerado com sucesso!!!\n");
