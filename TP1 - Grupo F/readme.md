@@ -13,5 +13,3 @@ Mateus Levy Avelans Boquady - 190113901</br>
 <h2>Análise de complexidade do QuickSort</h2>
 <h3>O(N.logN)</h3></br>
 <h2><a href=https://raw.githubusercontent.com/GuilhermeDSa1013/C-Stuff/main/TP1%20-%20Grupo%20F/Arquivo%20de%20saida.txt>Arquivo de Saída</a></h2>
-
-
