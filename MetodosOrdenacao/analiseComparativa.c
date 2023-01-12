@@ -129,6 +129,32 @@ void quicksort(Linha vet[], int esq, int dir){
 }
 */
 
+//MergeSort
+void intercala (int p, int q, int r, Linha v[]){
+    Linha *w;
+    w = malloc ((r-p) * sizeof (Linha));
+    int i = p, j = q;
+    int k = 0;
+
+    while (i < q && j < r) {
+        if (v[i].populacao <= v[j].populacao) w[k++].populacao = v[i++].populacao;
+        else w[k++].populacao = v[j++].populacao;
+    }
+    while (i < q) w[k++].populacao = v[i++].populacao;
+    while (j < r) w[k++].populacao = v[j++].populacao;
+    for (i = p; i < r; ++i) v[i].populacao = w[i-p].populacao;
+    free (w);
+}
+
+void mergesort (int p, int r, Linha v[]){
+    if (p < r-1) {
+        int q = (p + r)/2;
+        mergesort (p, q, v);
+        mergesort (q, r, v);
+        intercala (p, q, r, v);
+    }
+}
+
 
 
 main(){
@@ -165,7 +191,7 @@ main(){
     //insertionSort(a, 5570);
     //bubbleSort(a, 5570);
     //quicksort(a, 0, 5569);
-    quicksort(v, 0, 9);
+    mergesort(0, 5570, a);
 
 
     for (int j = 0; j < qtd; j++){
