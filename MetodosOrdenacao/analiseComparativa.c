@@ -10,6 +10,7 @@ typedef struct{
     char porte[40];
 } Linha;
 
+
 //SelectionSort
 int smallerIndex(Linha vet[], int tam, int ini){
     int min = ini, j;
