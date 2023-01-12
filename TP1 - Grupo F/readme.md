@@ -7,7 +7,6 @@ Spotify.</h2></br>
 Guilherme de Sá Gonçalves - 211031056</br>
 Luana de Lima Medeiros - 190091444</br>
 Mateus Levy Avelans Boquady - 190113901</h3></br>
-</br>
 <h2>Tempo de Processamento do QuickSort</h2>
 <h3>2 segundos</h3></br>
 <h2>Análise de complexidade do QuickSort</h2>
