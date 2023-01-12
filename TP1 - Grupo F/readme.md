@@ -3,10 +3,10 @@
 na Análise de Avaliações do Aplicativo
 Spotify.</h2></br>
 <h2>Membros</h2>
-Daniela Oliveira Alarcão - 211041123</br>
+<h3>Daniela Oliveira Alarcão - 211041123</br>
 Guilherme de Sá Gonçalves - 211031056</br>
 Luana de Lima Medeiros - 190091444</br>
-Mateus Levy Avelans Boquady - 190113901</br>
+Mateus Levy Avelans Boquady - 190113901</h3></br>
 </br>
 <h2>Tempo de Processamento do QuickSort</h2>
 <h3>2 segundos</h3></br>
