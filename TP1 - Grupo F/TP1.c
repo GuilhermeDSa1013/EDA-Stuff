@@ -37,27 +37,33 @@ void quicksort(Linha vet[], int esq, int dir){
 
 //Função para ler os primeiros 100 caracteres do comentário de cada linha
 void ler_comentario(FILE *fp, char *buffer){
-    char car;
+    char ch;
     int pqtdelidos;
     pqtdelidos = fscanf(fp, "%*[;]%100s", buffer);
-    while(car != '\n'){
-        car = fgetc(fp);
-        if (car == EOF)
+    while(ch != '\n'){
+        ch = fgetc(fp);
+        if (ch == EOF)
             break;
     }
 }
 
+//Função que conta quantas linhas tem o arquivo
+int contar_linhas(FILE *fp){
+    int qtdLinhas = 0;
+    char ch;
+    while (1){
+        ch = fgetc(fp);
+        if (ch == EOF)
+            break;
+        if (ch == '\n')
+            qtdLinhas++;
+    }
+    rewind(fp); //Retorna o ponteiro para o início do arquivo
+    return qtdLinhas;
+}
+
 main(){
     FILE *fp, *fc; 
-    Linha l, *a, *b;
-    //Vetor q conterá as linhas com likes
-    a = (Linha*)malloc(62000*sizeof(Linha));
-    //Vetor q conterá as linhas com 0 likes
-    b = (Linha*)malloc(62000*sizeof(Linha));
-    //Indices dos vetores de linha
-    int i = 0, k = 0;
-    //Variáveis q terão o número de linhas de cada vetor
-    int qtd = 0, qtd0 = 0;
 
     //Variáveis q serão utilizadas para medir o tempo de processamento do QuickSort
     float tempo;
@@ -78,34 +84,46 @@ main(){
         system("pause");
         exit(0);
     }
-    
+
+    int qtdLinhas = contar_linhas(fp);
+
+    Linha l, *a, *b;
+    //Vetor q conterá as linhas com likes
+    a = (Linha*)malloc(qtdLinhas*sizeof(Linha));
+    //Vetor q conterá as linhas com 0 likes
+    b = (Linha*)malloc(qtdLinhas*sizeof(Linha));
+    //Indices dos vetores de Linha
+    int iA = 0, iB = 0;
+    //Variáveis q terão o número de elementos de cada vetor
+    int qtdA = 0, qtdB = 0;
+
     //Percorrendo o arquivo
     while(1){
         int likes;
         likes = fscanf(fp, "%d", &l.likes); //Lendo o like de cada linha
-        
-        ler_comentario(fp, l.comment);
+        ler_comentario(fp, l.comment);//Lendo o comentário de cada linha
 
         if(likes == EOF){
             break;
         }
+        
         //Adicionando linhas no vetor a
         if(l.likes != 0){
-            a[i] = l;
-            i++;
-            qtd++;  
+            a[iA] = l;
+            iA++;
+            qtdA++;  
         }
         //Adicionando linhas no vetor b
         if(l.likes == 0){
-            b[k] = l;
-            k++;
-            qtd0++;
+            b[iB] = l;
+            iB++;
+            qtdB++;
         }
     }
     
     //Aplicando QuickSort
     tIni = time(NULL);
-    quicksort(a, 0, qtd-1);
+    quicksort(a, 0, qtdA-1);
     tFim = time(NULL);
 
     //Calculando tempo de processamento
@@ -113,9 +131,8 @@ main(){
 
     //Gravando informações no arquivo de saída
     fprintf(fc, "Quantidade | Comentario\n");
-
     //Manter a mesma indentação 
-    for(int j = 0; j < qtd; j++){
+    for(int j = 0; j < qtdA; j++){
         if (a[j].likes < 10)
             fprintf(fc, "%d%10s| %s\n", a[j].likes, " ", a[j].comment);   
         if (a[j].likes < 100 && a[j].likes >= 10)
@@ -125,16 +142,15 @@ main(){
         if (a[j].likes > 1000)
             fprintf(fc, "%d%7s| %s\n", a[j].likes, " ", a[j].comment);
     }
-       
     //Gravando linhas com 0 likes
-    for(int j = 0; j < qtd0; j++){
+    for(int j = 0; j < qtdB; j++){
         fprintf(fc, "%d%10s| %s\n", b[j].likes, " ", b[j].comment);
     }
     
     //Printando outras informações
     printf("Arquivo gerado com sucesso!!!\n");
     printf("Tempo de Processamento do QuickSort: %fs\n", tempo);
-    printf("Analise de complexidade do QuickSort: O(N.log(N))");
+    printf("Analise de complexidade do QuickSort:\nMelhor saso - O(N.log(N))\nPior caso - O(N²), quando o vetor já está todo ou quase todo ordenado.");
 
     //Fechando arquivos
     fclose(fp);
