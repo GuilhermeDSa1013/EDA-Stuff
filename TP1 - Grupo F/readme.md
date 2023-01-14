@@ -8,7 +8,7 @@ Guilherme de Sá Gonçalves - 211031056</br>
 Luana de Lima Medeiros - 190091444</br>
 Mateus Levy Avelans Boquady - 190113901</h3></br>
 <h2>Tempo de Processamento do QuickSort</h2>
-<h3>2 segundos</h3></br>
+<h3>de 2 a 5 segundos, (média com 10 valores: 3,1s)</h3></br>
 <h2>Análise de complexidade do QuickSort</h2>
 <h3>O(N.logN) - Melhor caso</br>
 O(N²) - Pior caso (quando o vetor já está quase todo ou todo ordenado)</h3></br>
