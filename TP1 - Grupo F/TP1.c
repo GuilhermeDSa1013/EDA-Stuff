@@ -150,7 +150,7 @@ main(){
     //Printando outras informações
     printf("Arquivo gerado com sucesso!!!\n");
     printf("Tempo de Processamento do QuickSort: %fs\n", tempo);
-    printf("Analise de complexidade do QuickSort:\nMelhor saso - O(N.log(N))\nPior caso - O(N²), quando o vetor já está todo ou quase todo ordenado.");
+    printf("Analise de complexidade do QuickSort:\nMelhor caso - O(N.log(N))\nPior caso - O(N²), quando o vetor já está todo ou quase todo ordenado.");
 
     //Fechando arquivos
     fclose(fp);
