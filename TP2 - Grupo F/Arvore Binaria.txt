@@ -1,0 +1,8 @@
+Linha: 7|Chave: China2020-08-08
+Linha: 1|Chave: England2020-02-07
+Linha: 5|Chave: Germany2020-08-08
+Linha: 4|Chave: Italy2020-05-13
+Linha: 6|Chave: Japan2020-08-08
+Linha: 3|Chave: Korea2020-05-13
+Linha: 2|Chave: USA2020-02-07
+Linha: 8|Chave: USA2020-08-08
