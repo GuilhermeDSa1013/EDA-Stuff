@@ -1,8 +1,34 @@
-Linha: 7|Chave: China2020-08-08
-Linha: 1|Chave: England2020-02-07
-Linha: 5|Chave: Germany2020-08-08
-Linha: 4|Chave: Italy2020-05-13
-Linha: 6|Chave: Japan2020-08-08
-Linha: 3|Chave: Korea2020-05-13
-Linha: 2|Chave: USA2020-02-07
-Linha: 8|Chave: USA2020-08-08
+Linha: 33|Chave: Bangladesh23/11/2021
+Linha: 3 |Chave: Belgium04/12/2020
+Linha: 25|Chave: Brasil27/07/2020
+Linha: 29|Chave: Brazil09/08/2021
+Linha: 20|Chave: Canada18/01/2022
+Linha: 9 |Chave: Egypt18/11/2021
+Linha: 15|Chave: Ethiopia16/12/2021
+Linha: 4 |Chave: France02/03/2021
+Linha: 5 |Chave: Germany15/06/2021
+Linha: 17|Chave: India_Molecular_Diversity07/01/2022
+Linha: 35|Chave: Indonesia,_The_Netherlands02/12/2020
+Linha: 23|Chave: Iran21/12/2021
+Linha: 7 |Chave: Israel28/07/2021
+Linha: 2 |Chave: Italy13/05/2020
+Linha: 11|Chave: Japan04/06/2021
+Linha: 24|Chave: Kenya24/09/2020
+Linha: 8 |Chave: Korea30/09/2021
+Linha: 14|Chave: Malaysia19/11/2021
+Linha: 21|Chave: Mexico18/01/2022
+Linha: 34|Chave: Morocco22/05/2020
+Linha: 18|Chave: Netherlands20/12/2021
+Linha: 31|Chave: Nigeria27/07/2021
+Linha: 6 |Chave: Poland29/04/2021
+Linha: 28|Chave: Portugal24/09/2021
+Linha: 26|Chave: Russia18/05/2020
+Linha: 32|Chave: Saudi_Arabia02/06/2021
+Linha: 30|Chave: Singapore,_Singapore03/09/2021
+Linha: 19|Chave: Slovenia28/12/2021
+Linha: 27|Chave: Spain26/11/2020
+Linha: 22|Chave: Sweden20/01/2022
+Linha: 16|Chave: Taiwan21/12/2021
+Linha: 1 |Chave: USA07/02/2020
+Linha: 12|Chave: United_Kingdom02/12/2021
+Linha: 13|Chave: Zimbabwe28/10/2021

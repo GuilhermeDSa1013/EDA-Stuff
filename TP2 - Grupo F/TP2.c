@@ -11,7 +11,7 @@ typedef struct NoA{
 
 typedef struct Registro{
     int linha;
-    char dados[5000];
+    char dados[2000];
 }Registro;
 
 NoA *InserirNo(NoA *A, int linha, char chave[50]){
@@ -34,7 +34,7 @@ NoA *InserirNo(NoA *A, int linha, char chave[50]){
 void ler_dados(FILE *fp, char *buffer){
     char ch;
     int pqtdelidos;
-    pqtdelidos = fscanf(fp, "%*[|]%s", buffer);
+    pqtdelidos = fscanf(fp, "%*[;]%s", buffer);
     while(ch != '\n'){
         ch = fgetc(fp);
         if (ch == EOF)
@@ -63,7 +63,10 @@ Registro *criarListaDados(FILE *arquivo, Registro *vet){
 void imprimirArvore(FILE *arquivo, NoA *A){
     if(A){
         imprimirArvore(arquivo, A->E);
-        fprintf(arquivo, "Linha: %d|Chave: %s\n", A->linha, A->chave);
+        if(A->linha < 10)
+            fprintf(arquivo, "Linha: %d |Chave: %s\n", A->linha, A->chave);
+        if(A->linha > 10)
+            fprintf(arquivo, "Linha: %d|Chave: %s\n", A->linha, A->chave);
         imprimirArvore(arquivo, A->D);
     }
 }
@@ -98,7 +101,7 @@ NoA *CarregarCampos(FILE *arquivo){
     int qtdLinhas = contar_linhas(arquivo);
     
     for(int i = 0; i < qtdLinhas; i++){
-        fscanf(arquivo, "%d|%[^|]|%[^|]|%[^|]|%[^|]|%[^|]|%[^|]|%[^|]|%[^|]|%[^|]|%[^\n]", &linha, claim_uid, cord_uid, title, doi, numerical_claims, publish_time, authors, journal, country, institution);
+        fscanf(arquivo, "%d;%[^;];%[^;];%[^;];%[^;];%[^;];%[^;];%[^;];%[^;];%[^;];%[^\n]", &linha, claim_uid, cord_uid, title, doi, numerical_claims, publish_time, authors, journal, country, institution);
         chave = strcat(country, publish_time);
         arvore = InserirNo(arvore, linha, chave);
     }
@@ -108,7 +111,7 @@ NoA *CarregarCampos(FILE *arquivo){
     return arvore;
 }
 
-int ordem[8], i = 0;
+int ordem[35], i = 0;
 int *EmitirOrdemAcessoArvore(NoA *A){
     if(A){
         EmitirOrdemAcessoArvore(A->E);
@@ -144,7 +147,7 @@ main(){
     char nomeArq[50];
     NoA *arvore = NULL;
     Registro *vet;
-    vet = (Registro*)malloc(8*sizeof(Registro));
+    vet = (Registro*)malloc(35*sizeof(Registro));
 
 
     while(opcao != 3){
@@ -183,7 +186,10 @@ main(){
 
                 fprintf(Relatorio, "Linha | claim_uid | cord_uid | title | doi | numerical_claims | publish_time | authors | journal | country | institution \n");
                 for(int i = 0; i < qtdlinha; i++){
-                    fprintf(Relatorio, "Linha: %d |Dados: %s\n", vet[ordem[i]-1].linha, vet[ordem[i]-1].dados);
+                    if(vet[ordem[i]-1].linha < 10)
+                        fprintf(Relatorio, "Linha: %d  |Dados: %s\n", vet[ordem[i]-1].linha, vet[ordem[i]-1].dados);
+                    if(vet[ordem[i]-1].linha > 10)
+                        fprintf(Relatorio, "Linha: %d |Dados: %s\n", vet[ordem[i]-1].linha, vet[ordem[i]-1].dados);
                 }
                 printf("Arquivo 'Relatorio' feito com sucesso\n");
                 printf("\n");
