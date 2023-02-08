@@ -55,7 +55,7 @@ void FreeArvore(NoA *A){
 }
 
 //Função que carrega o arquivo
-NoA *CarregarArquivo(FILE *arquivo, long int *posicao){
+NoA *CarregarArquivo(FILE *arquivo, long int *vet){
     char claim_uid[25], cord_uid[25], title[100000], doi[100], numerical_claims[100000], publish_time[20], authors[100000], journal[1000], country[1000], institution[1000];
     int linha;
     char *chave; 
@@ -64,7 +64,7 @@ NoA *CarregarArquivo(FILE *arquivo, long int *posicao){
     NoA *arvore = NULL;
     
     while (1){
-        posicao[indPos] = ftell(arquivo);
+        vet[indPos] = ftell(arquivo);
         //Essa função é responsável por dizer a posição do cursor no arquivo em bytes
         //Servirá para mover o cursor para a linha desejada na função fseek mais pra frente
         
@@ -88,15 +88,15 @@ NoA *CarregarArquivo(FILE *arquivo, long int *posicao){
 }
 
 char claim_uid[25], cord_uid[25], title[10000], doi[100], numerical_claims[10000], publish_time[20], authors[20000], journal[1000], country[1000], institution[1000];
-void EmitirRelatorio(FILE *arquivo, FILE *arquivo2, NoA *A, long int *posicao){
+void EmitirRelatorio(FILE *arquivo, FILE *arquivo2, NoA *A, long int *vet){
     int linha;
     if(A->E != NULL)
-        EmitirRelatorio(arquivo, arquivo2, A->E, posicao); //Primeiro vou para tudo pra esquerda
+        EmitirRelatorio(arquivo, arquivo2, A->E, vet); //Primeiro vou para tudo pra esquerda
 
     //Quando voltar, venho acessando o Nó
-    fseek(arquivo, posicao[A->linha], SEEK_SET);
+    fseek(arquivo, vet[A->linha], SEEK_SET);
     //Uso do vetor posição, nele contem o número de byte de cada linha
-    //Exemplo de como está o vetor posicao: [6750309, 0, 455, 1026, 1781, 2161, 2835, 3477, 4205, 4995 ...]
+    //Exemplo de como está o vetor: [6750309, 0, 455, 1026, 1781, 2161, 2835, 3477, 4205, 4995 ...]
     
     //Lendo a linha
     fscanf(arquivo, "%d;%[^;];%[^;];%[^;];%[^;];%[^;];%[^;];%[^;];%[^;];%[^;];%[^\n]", 
@@ -108,7 +108,7 @@ void EmitirRelatorio(FILE *arquivo, FILE *arquivo2, NoA *A, long int *posicao){
                         linha, claim_uid, cord_uid, title, doi, numerical_claims, publish_time, authors, journal, country, institution);
     
     if(A->D != NULL)
-        EmitirRelatorio(arquivo, arquivo2, A->D, posicao); //Depois vou pra direita
+        EmitirRelatorio(arquivo, arquivo2, A->D, vet); //Depois vou pra direita
     
 }
 
@@ -133,7 +133,7 @@ main(){
 
     int opcao;
     char nomeArq[50];
-    long int posicao[1000];
+    long int vetBytesLinha[1000];
     NoA *arvore = NULL; //Criando árvore vazia
 
     //MENU
@@ -155,7 +155,7 @@ main(){
                     break;
                 }
                 
-                arvore = CarregarArquivo(arquivo, posicao); //Carregando Arquivo
+                arvore = CarregarArquivo(arquivo, vetBytesLinha); //Carregando Arquivo
                 printf("Arquivo carregado com Sucesso\n");
 
                 break;
@@ -168,7 +168,7 @@ main(){
                 imprimirArvore(ArvBin, arvore); //Imprimindo o Arquivo 'Arvore Binaria'
                 printf("\nArquivo 'Arvore Binaria' feito com sucesso\n");
 
-                EmitirRelatorio(arquivo, Relatorio, arvore, posicao); //Imprimindo o Arquivo 'Relatorio'
+                EmitirRelatorio(arquivo, Relatorio, arvore, vetBytesLinha); //Imprimindo o Arquivo 'Relatorio'
                 printf("Arquivo 'Relatorio' feito com sucesso\n");
                 printf("\n");
                 
