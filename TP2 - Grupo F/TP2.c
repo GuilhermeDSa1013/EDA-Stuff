@@ -2,6 +2,7 @@
 #include<stdlib.h>
 #include<string.h>
 
+//Struct de cada Nó da árvore
 typedef struct NoA{
     int linha;
     char chave[50];
@@ -9,13 +10,9 @@ typedef struct NoA{
     struct NoA *D;
 } NoA;
 
-typedef struct Registro{
-    int linha;
-    char dados[2000];
-}Registro;
-
+//Função para inserir Nó na árvore
 NoA *InserirNo(NoA *A, int linha, char chave[50]){
-    if(A == NULL){
+    if(A == NULL){ //Apenas seta os valores caso o Nó da árvore esteja vazio
         NoA *aux = malloc(sizeof(NoA));
         aux->linha = linha;
         strcpy(aux->chave, chave);
@@ -23,106 +20,97 @@ NoA *InserirNo(NoA *A, int linha, char chave[50]){
         aux->D = NULL;
         return aux;
     }else{
-        if(strcmp(chave, A->chave) == -1)
-            A->E = InserirNo(A->E, linha, chave);
+        if(strcmp(chave, A->chave) == -1) //usa o strcmp para decidir o que é menor ou maior
+            A->E = InserirNo(A->E, linha, chave); //menores na ordem alfabética vão para esquerda
         else
-            A->D = InserirNo(A->D, linha, chave);
+            A->D = InserirNo(A->D, linha, chave); //maiores na ordem alfabética vão para direita
         return A;
     }
 }
 
-void ler_dados(FILE *fp, char *buffer){
-    char ch;
-    int pqtdelidos;
-    pqtdelidos = fscanf(fp, "%*[;]%s", buffer);
-    while(ch != '\n'){
-        ch = fgetc(fp);
-        if (ch == EOF)
-            break;
-    }
-}
-
-Registro *criarListaDados(FILE *arquivo, Registro *vet){
-    int indVet = 0;
-    Registro l;
-    while(1){
-        int linha;
-        linha = fscanf(arquivo, "%d", &l.linha);
-        ler_dados(arquivo, l.dados);
-        
-        if(linha == EOF){
-            break;
-        }
-
-        vet[indVet] = l;
-        indVet++;
-    }
-    return vet;
-}
-
+//Função que imprime a árvore apenas para visualizá-la
 void imprimirArvore(FILE *arquivo, NoA *A){
     if(A){
+        //Primeiro vai toda pra esquerda
         imprimirArvore(arquivo, A->E);
+        //Quando volta, acessa o Nó
         if(A->linha < 10)
+            fprintf(arquivo, "Linha: %d  |Chave: %s\n", A->linha, A->chave);
+        if(A->linha >= 10 && A->linha < 100)
             fprintf(arquivo, "Linha: %d |Chave: %s\n", A->linha, A->chave);
-        if(A->linha > 10)
+        if(A->linha >= 100 && A->linha <= 1000)
             fprintf(arquivo, "Linha: %d|Chave: %s\n", A->linha, A->chave);
+        //Depois vai pra direita
         imprimirArvore(arquivo, A->D);
     }
 }
 
+//Função que desaloca cada nó da árvore
 void FreeArvore(NoA *A){
     if (A != NULL){
-        FreeArvore(A->E);
-        FreeArvore(A->D);
+        FreeArvore(A->E); //Vai indo pra esquerda, quando o Filho a esquerda foi NULL, desaloco o nó
+        FreeArvore(A->D); //Depois pra direita
         free(A);
     }  
 }
 
-int contar_linhas(FILE *fp){
-    int qtdLinhas = 0;
-    char ch;
-    while (1){
-        ch = fgetc(fp);
-        if (ch == EOF)
-            break;
-        if (ch == '\n')
-            qtdLinhas++;
-    }
-    rewind(fp); //Retorna o ponteiro para o início do arquivo
-    return qtdLinhas;
-}
-
-NoA *CarregarCampos(FILE *arquivo){
-    char claim_uid[25], cord_uid[25], title[2000], doi[100], numerical_claims[2000], publish_time[20], authors[2000], journal[500], country[50], institution[300];
+//Função que carrega o arquivo
+NoA *CarregarArquivo(FILE *arquivo, long int *posicao){
+    char claim_uid[25], cord_uid[25], title[100000], doi[100], numerical_claims[100000], publish_time[20], authors[100000], journal[1000], country[1000], institution[1000];
     int linha;
-    char *chave;    
+    char *chave; 
+    char ch;
+    int indPos = 1;  
     NoA *arvore = NULL;
-    int qtdLinhas = contar_linhas(arquivo);
     
-    for(int i = 0; i < qtdLinhas; i++){
-        fscanf(arquivo, "%d;%[^;];%[^;];%[^;];%[^;];%[^;];%[^;];%[^;];%[^;];%[^;];%[^\n]", &linha, claim_uid, cord_uid, title, doi, numerical_claims, publish_time, authors, journal, country, institution);
-        chave = strcat(country, publish_time);
-        arvore = InserirNo(arvore, linha, chave);
+    while (1){
+        posicao[indPos] = ftell(arquivo);
+        //Essa função é responsável por dizer a posição do cursor no arquivo em bytes
+        //Servirá para mover o cursor para a linha desejada na função fseek mais pra frente
+        
+        //Leio os dados
+        fscanf(arquivo, "%d;%[^;];%[^;];%[^;];%[^;];%[^;];%[^;];%[^;];%[^;];%[^;];%[^\n]", 
+                        &linha, claim_uid, cord_uid, title, doi, numerical_claims, publish_time, authors, journal, country, institution);
+        
+        //Pra quando chegar no final do arquivo
+        ch = fgetc(arquivo);
+        if(ch == EOF){
+            break;
+        }
+        
+        chave = strcat(country, publish_time); //Concatenando os campos que serão a chave
+        arvore = InserirNo(arvore, linha, chave); //Inserindo Nó
+
+        indPos++;
     }
-
-    rewind(arquivo);
-
+    
     return arvore;
 }
 
-int ordem[35], i = 0;
-int *EmitirOrdemAcessoArvore(NoA *A){
-    if(A){
-        EmitirOrdemAcessoArvore(A->E);
-        ordem[i] = A->linha;
-        i++;
-        EmitirOrdemAcessoArvore(A->D);
-    }
-    return ordem;
+char claim_uid[25], cord_uid[25], title[10000], doi[100], numerical_claims[10000], publish_time[20], authors[20000], journal[1000], country[1000], institution[1000];
+void EmitirRelatorio(FILE *arquivo, FILE *arquivo2, NoA *A, long int *posicao){
+    int linha;
+    if(A->E != NULL)
+        EmitirRelatorio(arquivo, arquivo2, A->E, posicao); //Primeiro vou para tudo pra esquerda
+
+    //Quando voltar, venho acessando o Nó
+    fseek(arquivo, posicao[A->linha], SEEK_SET);
+    //Uso do vetor posição, nele contem o número de byte de cada linha
+    //Exemplo de como está o vetor posicao: [6750309, 0, 455, 1026, 1781, 2161, 2835, 3477, 4205, 4995 ...]
+    
+    //Lendo a linha
+    fscanf(arquivo, "%d;%[^;];%[^;];%[^;];%[^;];%[^;];%[^;];%[^;];%[^;];%[^;];%[^\n]", 
+                        &linha, claim_uid, cord_uid, title, doi, numerical_claims, publish_time, authors, journal, country, institution);
+    
+    //Printando no Arquivo de Relatório
+    
+    fprintf(arquivo2, "Linha %d |claim_uid: %s |cord_uid: %s |title: %s |doi: %s |numerical_claims: %s |publish_time: %s |authors: %s |journal: %s |country: %s |institution: %s\n", 
+                        linha, claim_uid, cord_uid, title, doi, numerical_claims, publish_time, authors, journal, country, institution);
+    
+    if(A->D != NULL)
+        EmitirRelatorio(arquivo, arquivo2, A->D, posicao); //Depois vou pra direita
+    
 }
-
-
 
 main(){
     FILE *arquivo = NULL;
@@ -145,11 +133,10 @@ main(){
 
     int opcao;
     char nomeArq[50];
-    NoA *arvore = NULL;
-    Registro *vet;
-    vet = (Registro*)malloc(35*sizeof(Registro));
+    long int posicao[1000];
+    NoA *arvore = NULL; //Criando árvore vazia
 
-
+    //MENU
     while(opcao != 3){
         printf("\n1 - Carregar Arquivo de Dados");
         printf("\n2 - Emitir Relatorio");
@@ -161,16 +148,15 @@ main(){
                 printf("\nInforme o nome do arquivo: ");
                 scanf("%s", nomeArq);
                 
+                //Abrindo o arquivo que o usuário digitar
                 arquivo = fopen(nomeArq, "r");
                 if(arquivo == NULL){
                     printf("Ocorreu um erro na abertura do arquivo, tente novamente\n\n");
                     break;
                 }
-
-                int qtdlinha = contar_linhas(arquivo);
-                arvore = CarregarCampos(arquivo);
+                
+                arvore = CarregarArquivo(arquivo, posicao); //Carregando Arquivo
                 printf("Arquivo carregado com Sucesso\n");
-                vet = criarListaDados(arquivo, vet);
 
                 break;
             case 2:
@@ -179,29 +165,21 @@ main(){
                     break;
                 }
 
-                imprimirArvore(ArvBin, arvore);
+                imprimirArvore(ArvBin, arvore); //Imprimindo o Arquivo 'Arvore Binaria'
                 printf("\nArquivo 'Arvore Binaria' feito com sucesso\n");
 
-                EmitirOrdemAcessoArvore(arvore);
-
-                fprintf(Relatorio, "Linha | claim_uid | cord_uid | title | doi | numerical_claims | publish_time | authors | journal | country | institution \n");
-                for(int i = 0; i < qtdlinha; i++){
-                    if(vet[ordem[i]-1].linha < 10)
-                        fprintf(Relatorio, "Linha: %d  |Dados: %s\n", vet[ordem[i]-1].linha, vet[ordem[i]-1].dados);
-                    if(vet[ordem[i]-1].linha > 10)
-                        fprintf(Relatorio, "Linha: %d |Dados: %s\n", vet[ordem[i]-1].linha, vet[ordem[i]-1].dados);
-                }
+                EmitirRelatorio(arquivo, Relatorio, arvore, posicao); //Imprimindo o Arquivo 'Relatorio'
                 printf("Arquivo 'Relatorio' feito com sucesso\n");
                 printf("\n");
                 
-                
                 break;
             case 3:
+                //Fechando os arquivos
                 fclose(arquivo);
                 fclose(ArvBin);
                 fclose(Relatorio);
-                free(vet);
-                FreeArvore(arvore);
+                //Desalocando toda a árvore
+                FreeArvore(arvore); 
                 printf("\nDesalocacao feita.");
         }
     }

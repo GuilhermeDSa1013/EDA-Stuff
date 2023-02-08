@@ -1,34 +1,1000 @@
-Linha: 33|Chave: Bangladesh23/11/2021
-Linha: 3 |Chave: Belgium04/12/2020
-Linha: 25|Chave: Brasil27/07/2020
-Linha: 29|Chave: Brazil09/08/2021
-Linha: 20|Chave: Canada18/01/2022
-Linha: 9 |Chave: Egypt18/11/2021
-Linha: 15|Chave: Ethiopia16/12/2021
-Linha: 4 |Chave: France02/03/2021
-Linha: 5 |Chave: Germany15/06/2021
-Linha: 17|Chave: India_Molecular_Diversity07/01/2022
-Linha: 35|Chave: Indonesia,_The_Netherlands02/12/2020
-Linha: 23|Chave: Iran21/12/2021
-Linha: 7 |Chave: Israel28/07/2021
-Linha: 2 |Chave: Italy13/05/2020
-Linha: 11|Chave: Japan04/06/2021
-Linha: 24|Chave: Kenya24/09/2020
-Linha: 8 |Chave: Korea30/09/2021
-Linha: 14|Chave: Malaysia19/11/2021
-Linha: 21|Chave: Mexico18/01/2022
-Linha: 34|Chave: Morocco22/05/2020
-Linha: 18|Chave: Netherlands20/12/2021
-Linha: 31|Chave: Nigeria27/07/2021
-Linha: 6 |Chave: Poland29/04/2021
-Linha: 28|Chave: Portugal24/09/2021
-Linha: 26|Chave: Russia18/05/2020
-Linha: 32|Chave: Saudi_Arabia02/06/2021
-Linha: 30|Chave: Singapore,_Singapore03/09/2021
-Linha: 19|Chave: Slovenia28/12/2021
-Linha: 27|Chave: Spain26/11/2020
-Linha: 22|Chave: Sweden20/01/2022
-Linha: 16|Chave: Taiwan21/12/2021
-Linha: 1 |Chave: USA07/02/2020
-Linha: 12|Chave: United_Kingdom02/12/2021
-Linha: 13|Chave: Zimbabwe28/10/2021
+Linha: 472|Chave: Australia06/09/2021
+Linha: 473|Chave: Australia06/09/2021
+Linha: 474|Chave: Australia06/09/2021
+Linha: 475|Chave: Australia06/09/2021
+Linha: 438|Chave: Australia10/05/2021
+Linha: 439|Chave: Australia10/05/2021
+Linha: 440|Chave: Australia10/05/2021
+Linha: 654|Chave: Australia28/08/2021
+Linha: 655|Chave: Australia28/08/2021
+Linha: 656|Chave: Australia28/08/2021
+Linha: 379|Chave: Australia31/05/2021
+Linha: 897|Chave: Bahrain11/05/2021
+Linha: 898|Chave: Bahrain11/05/2021
+Linha: 899|Chave: Bahrain11/05/2021
+Linha: 945|Chave: Bangladesh05/05/2021
+Linha: 946|Chave: Bangladesh05/05/2021
+Linha: 947|Chave: Bangladesh05/05/2021
+Linha: 948|Chave: Bangladesh05/05/2021
+Linha: 949|Chave: Bangladesh05/05/2021
+Linha: 390|Chave: Bangladesh17/08/2021
+Linha: 391|Chave: Bangladesh17/08/2021
+Linha: 392|Chave: Bangladesh17/08/2021
+Linha: 393|Chave: Bangladesh17/08/2021
+Linha: 394|Chave: Bangladesh17/08/2021
+Linha: 395|Chave: Bangladesh17/08/2021
+Linha: 917|Chave: Beijing，China21/07/2020
+Linha: 918|Chave: Beijing，China21/07/2020
+Linha: 919|Chave: Beijing，China21/07/2020
+Linha: 920|Chave: Beijing，China21/07/2020
+Linha: 921|Chave: Beijing，China21/07/2020
+Linha: 924|Chave: Belgium._Summary31/08/2021
+Linha: 925|Chave: Belgium._Summary31/08/2021
+Linha: 926|Chave: Belgium._Summary31/08/2021
+Linha: 927|Chave: Belgium._Summary31/08/2021
+Linha: 928|Chave: Belgium._Summary31/08/2021
+Linha: 929|Chave: Belgium._Summary31/08/2021
+Linha: 930|Chave: Belgium._Summary31/08/2021
+Linha: 20 |Chave: Belgium04/12/2020
+Linha: 21 |Chave: Belgium04/12/2020
+Linha: 22 |Chave: Belgium04/12/2020
+Linha: 631|Chave: Belgium06/05/2021
+Linha: 632|Chave: Belgium06/05/2021
+Linha: 633|Chave: Belgium06/05/2021
+Linha: 634|Chave: Belgium06/05/2021
+Linha: 635|Chave: Belgium06/05/2021
+Linha: 636|Chave: Belgium06/05/2021
+Linha: 637|Chave: Belgium06/05/2021
+Linha: 638|Chave: Belgium06/05/2021
+Linha: 639|Chave: Belgium06/05/2021
+Linha: 117|Chave: Belgium19/11/2021
+Linha: 180|Chave: Belgium20/12/2021
+Linha: 181|Chave: Belgium20/12/2021
+Linha: 477|Chave: Belgium22/09/2021
+Linha: 478|Chave: Belgium22/09/2021
+Linha: 479|Chave: Belgium22/09/2021
+Linha: 471|Chave: Belgium24/04/2020
+Linha: 290|Chave: Brasil27/07/2020
+Linha: 291|Chave: Brasil27/07/2020
+Linha: 292|Chave: Brasil27/07/2020
+Linha: 327|Chave: Brasil27/12/2021
+Linha: 328|Chave: Brasil27/12/2021
+Linha: 329|Chave: Brasil27/12/2021
+Linha: 330|Chave: Brasil27/12/2021
+Linha: 331|Chave: Brasil27/12/2021
+Linha: 332|Chave: Brasil27/12/2021
+Linha: 931|Chave: Brazil17/03/2021
+Linha: 932|Chave: Brazil17/03/2021
+Linha: 380|Chave: Brazil20/11/2020
+Linha: 381|Chave: Brazil20/11/2020
+Linha: 382|Chave: Brazil20/11/2020
+Linha: 887|Chave: Brazil25/02/2022
+Linha: 459|Chave: Brazil25/03/2022
+Linha: 460|Chave: Brazil25/03/2022
+Linha: 461|Chave: Brazil25/03/2022
+Linha: 462|Chave: Brazil25/03/2022
+Linha: 463|Chave: Brazil25/03/2022
+Linha: 464|Chave: Brazil25/03/2022
+Linha: 465|Chave: Brazil25/03/2022
+Linha: 466|Chave: Brazil25/03/2022
+Linha: 678|Chave: Canada01/08/2020
+Linha: 679|Chave: Canada01/08/2020
+Linha: 680|Chave: Canada01/08/2020
+Linha: 681|Chave: Canada01/08/2020
+Linha: 682|Chave: Canada01/08/2020
+Linha: 683|Chave: Canada01/08/2020
+Linha: 684|Chave: Canada01/08/2020
+Linha: 685|Chave: Canada01/08/2020
+Linha: 686|Chave: Canada01/08/2020
+Linha: 687|Chave: Canada01/08/2020
+Linha: 688|Chave: Canada01/08/2020
+Linha: 689|Chave: Canada01/08/2020
+Linha: 690|Chave: Canada01/08/2020
+Linha: 691|Chave: Canada01/08/2020
+Linha: 692|Chave: Canada01/08/2020
+Linha: 641|Chave: Canada01/11/2021
+Linha: 642|Chave: Canada01/11/2021
+Linha: 705|Chave: Canada02/03/2021
+Linha: 706|Chave: Canada02/03/2021
+Linha: 517|Chave: Canada08/04/2021
+Linha: 518|Chave: Canada08/04/2021
+Linha: 221|Chave: Canada09/02/2022
+Linha: 222|Chave: Canada09/02/2022
+Linha: 223|Chave: Canada09/02/2022
+Linha: 224|Chave: Canada09/02/2022
+Linha: 225|Chave: Canada09/02/2022
+Linha: 226|Chave: Canada09/02/2022
+Linha: 227|Chave: Canada09/02/2022
+Linha: 228|Chave: Canada09/02/2022
+Linha: 229|Chave: Canada09/02/2022
+Linha: 230|Chave: Canada09/02/2022
+Linha: 231|Chave: Canada09/02/2022
+Linha: 811|Chave: Canada13/12/2020
+Linha: 812|Chave: Canada13/12/2020
+Linha: 813|Chave: Canada13/12/2020
+Linha: 814|Chave: Canada13/12/2020
+Linha: 585|Chave: Canada15/02/2021
+Linha: 586|Chave: Canada15/02/2021
+Linha: 587|Chave: Canada15/02/2021
+Linha: 588|Chave: Canada15/02/2021
+Linha: 201|Chave: Canada18/01/2022
+Linha: 202|Chave: Canada18/01/2022
+Linha: 203|Chave: Canada18/01/2022
+Linha: 299|Chave: Canada21/12/2021
+Linha: 300|Chave: Canada21/12/2021
+Linha: 301|Chave: Canada21/12/2021
+Linha: 302|Chave: Canada21/12/2021
+Linha: 303|Chave: Canada21/12/2021
+Linha: 485|Chave: Canada28/10/2020
+Linha: 486|Chave: Canada28/10/2020
+Linha: 487|Chave: Canada28/10/2020
+Linha: 359|Chave: Chile04/04/2021
+Linha: 453|Chave: China,_China12/01/2021
+Linha: 454|Chave: China,_China12/01/2021
+Linha: 455|Chave: China,_China12/01/2021
+Linha: 456|Chave: China,_China12/01/2021
+Linha: 457|Chave: China,_China12/01/2021
+Linha: 458|Chave: China,_China12/01/2021
+Linha: 669|Chave: China,_China14/03/2021
+Linha: 670|Chave: China,_China14/03/2021
+Linha: 369|Chave: China01/11/2021
+Linha: 370|Chave: China01/11/2021
+Linha: 371|Chave: China01/11/2021
+Linha: 372|Chave: China01/11/2021
+Linha: 373|Chave: China01/11/2021
+Linha: 374|Chave: China01/11/2021
+Linha: 375|Chave: China01/11/2021
+Linha: 724|Chave: China02/12/2020
+Linha: 725|Chave: China02/12/2020
+Linha: 726|Chave: China02/12/2020
+Linha: 727|Chave: China02/12/2020
+Linha: 728|Chave: China02/12/2020
+Linha: 729|Chave: China02/12/2020
+Linha: 730|Chave: China02/12/2020
+Linha: 731|Chave: China02/12/2020
+Linha: 732|Chave: China02/12/2020
+Linha: 733|Chave: China02/12/2020
+Linha: 734|Chave: China02/12/2020
+Linha: 735|Chave: China02/12/2020
+Linha: 736|Chave: China02/12/2020
+Linha: 737|Chave: China02/12/2020
+Linha: 738|Chave: China02/12/2020
+Linha: 739|Chave: China02/12/2020
+Linha: 907|Chave: China04/02/2020
+Linha: 908|Chave: China04/02/2020
+Linha: 909|Chave: China04/02/2020
+Linha: 910|Chave: China04/02/2020
+Linha: 911|Chave: China04/02/2020
+Linha: 912|Chave: China04/02/2020
+Linha: 913|Chave: China04/02/2020
+Linha: 914|Chave: China04/02/2020
+Linha: 915|Chave: China04/02/2020
+Linha: 950|Chave: China05/11/2020
+Linha: 951|Chave: China05/11/2020
+Linha: 357|Chave: China08/09/2021
+Linha: 358|Chave: China08/09/2021
+Linha: 576|Chave: China10/02/2021
+Linha: 577|Chave: China10/02/2021
+Linha: 760|Chave: China11/02/2022
+Linha: 643|Chave: China14/10/2020
+Linha: 644|Chave: China14/10/2020
+Linha: 315|Chave: China15/09/2021
+Linha: 316|Chave: China15/09/2021
+Linha: 317|Chave: China15/09/2021
+Linha: 318|Chave: China15/09/2021
+Linha: 319|Chave: China15/09/2021
+Linha: 320|Chave: China15/09/2021
+Linha: 168|Chave: China16/12/2021
+Linha: 169|Chave: China16/12/2021
+Linha: 170|Chave: China16/12/2021
+Linha: 171|Chave: China16/12/2021
+Linha: 172|Chave: China16/12/2021
+Linha: 173|Chave: China16/12/2021
+Linha: 174|Chave: China16/12/2021
+Linha: 175|Chave: China16/12/2021
+Linha: 176|Chave: China16/12/2021
+Linha: 177|Chave: China16/12/2021
+Linha: 178|Chave: China16/12/2021
+Linha: 179|Chave: China16/12/2021
+Linha: 443|Chave: China17/05/2021
+Linha: 444|Chave: China17/05/2021
+Linha: 766|Chave: China17/06/2021
+Linha: 767|Chave: China17/06/2021
+Linha: 768|Chave: China17/06/2021
+Linha: 718|Chave: China17/08/2020
+Linha: 719|Chave: China17/08/2020
+Linha: 720|Chave: China17/08/2020
+Linha: 721|Chave: China17/08/2020
+Linha: 722|Chave: China17/08/2020
+Linha: 723|Chave: China17/08/2020
+Linha: 862|Chave: China18/06/2020
+Linha: 863|Chave: China18/06/2020
+Linha: 405|Chave: China19/08/2021
+Linha: 406|Chave: China19/08/2021
+Linha: 900|Chave: China21/04/2020
+Linha: 901|Chave: China21/04/2020
+Linha: 902|Chave: China21/04/2020
+Linha: 903|Chave: China21/04/2020
+Linha: 904|Chave: China21/04/2020
+Linha: 905|Chave: China21/04/2020
+Linha: 707|Chave: China24/03/2020
+Linha: 708|Chave: China24/03/2020
+Linha: 677|Chave: China24/04/2020
+Linha: 609|Chave: China26/10/2020
+Linha: 610|Chave: China26/10/2020
+Linha: 611|Chave: China26/10/2020
+Linha: 56 |Chave: China26/10/2021
+Linha: 57 |Chave: China26/10/2021
+Linha: 745|Chave: China27/01/2021
+Linha: 746|Chave: China27/01/2021
+Linha: 747|Chave: China27/01/2021
+Linha: 748|Chave: China27/01/2021
+Linha: 749|Chave: China27/01/2021
+Linha: 750|Chave: China27/01/2021
+Linha: 616|Chave: China27/12/2021
+Linha: 698|Chave: China30/10/2020
+Linha: 602|Chave: Denmark24/02/2021
+Linha: 88 |Chave: Egypt14/12/2021
+Linha: 89 |Chave: Egypt14/12/2021
+Linha: 497|Chave: Egypt18/10/2021
+Linha: 498|Chave: Egypt18/10/2021
+Linha: 51 |Chave: Egypt18/11/2021
+Linha: 52 |Chave: Egypt18/11/2021
+Linha: 90 |Chave: Ethiopia16/12/2021
+Linha: 91 |Chave: Ethiopia16/12/2021
+Linha: 92 |Chave: Ethiopia16/12/2021
+Linha: 93 |Chave: Ethiopia16/12/2021
+Linha: 94 |Chave: Ethiopia16/12/2021
+Linha: 95 |Chave: Ethiopia16/12/2021
+Linha: 96 |Chave: Ethiopia16/12/2021
+Linha: 97 |Chave: Ethiopia16/12/2021
+Linha: 26 |Chave: France02/03/2021
+Linha: 27 |Chave: France02/03/2021
+Linha: 28 |Chave: France02/03/2021
+Linha: 499|Chave: France04/03/2022
+Linha: 500|Chave: France04/03/2022
+Linha: 501|Chave: France04/03/2022
+Linha: 445|Chave: France07/03/2021
+Linha: 446|Chave: France07/03/2021
+Linha: 447|Chave: France07/03/2021
+Linha: 448|Chave: France07/03/2021
+Linha: 449|Chave: France07/03/2021
+Linha: 797|Chave: France18/12/2021
+Linha: 798|Chave: France18/12/2021
+Linha: 232|Chave: France24/09/2020
+Linha: 233|Chave: France24/09/2020
+Linha: 234|Chave: France24/09/2020
+Linha: 235|Chave: France24/09/2020
+Linha: 236|Chave: France24/09/2020
+Linha: 237|Chave: France24/09/2020
+Linha: 238|Chave: France24/09/2020
+Linha: 239|Chave: France24/09/2020
+Linha: 240|Chave: France24/09/2020
+Linha: 241|Chave: France24/09/2020
+Linha: 242|Chave: France24/09/2020
+Linha: 243|Chave: France24/09/2020
+Linha: 244|Chave: France24/09/2020
+Linha: 973|Chave: France30/06/2020
+Linha: 314|Chave: France30/12/2021
+Linha: 709|Chave: Germany04/05/2021
+Linha: 710|Chave: Germany04/05/2021
+Linha: 965|Chave: Germany04/07/2020
+Linha: 966|Chave: Germany04/07/2020
+Linha: 967|Chave: Germany04/07/2020
+Linha: 981|Chave: Germany10/01/2022
+Linha: 982|Chave: Germany10/01/2022
+Linha: 983|Chave: Germany10/01/2022
+Linha: 984|Chave: Germany10/01/2022
+Linha: 985|Chave: Germany10/01/2022
+Linha: 986|Chave: Germany10/01/2022
+Linha: 987|Chave: Germany10/01/2022
+Linha: 988|Chave: Germany10/01/2022
+Linha: 989|Chave: Germany10/01/2022
+Linha: 990|Chave: Germany10/01/2022
+Linha: 991|Chave: Germany10/01/2022
+Linha: 992|Chave: Germany10/01/2022
+Linha: 993|Chave: Germany10/01/2022
+Linha: 994|Chave: Germany10/01/2022
+Linha: 995|Chave: Germany10/01/2022
+Linha: 996|Chave: Germany10/01/2022
+Linha: 190|Chave: Germany12/01/2022
+Linha: 191|Chave: Germany12/01/2022
+Linha: 33 |Chave: Germany15/06/2021
+Linha: 34 |Chave: Germany15/06/2021
+Linha: 35 |Chave: Germany15/06/2021
+Linha: 36 |Chave: Germany15/06/2021
+Linha: 923|Chave: Germany27/09/2021
+Linha: 494|Chave: Germany30/12/2021
+Linha: 495|Chave: Germany30/12/2021
+Linha: 496|Chave: Germany30/12/2021
+Linha: 594|Chave: Germany_KEY_MESSAGES28/07/2021
+Linha: 595|Chave: Germany_KEY_MESSAGES28/07/2021
+Linha: 596|Chave: Germany_KEY_MESSAGES28/07/2021
+Linha: 597|Chave: Germany_KEY_MESSAGES28/07/2021
+Linha: 851|Chave: Greece03/11/2021
+Linha: 613|Chave: India.,_India06/10/2020
+Linha: 614|Chave: India.,_India06/10/2020
+Linha: 615|Chave: India.,_India06/10/2020
+Linha: 864|Chave: India04/12/2020
+Linha: 865|Chave: India04/12/2020
+Linha: 866|Chave: India04/12/2020
+Linha: 794|Chave: India06/03/2021
+Linha: 795|Chave: India06/03/2021
+Linha: 796|Chave: India06/03/2021
+Linha: 339|Chave: India08/07/2021
+Linha: 340|Chave: India08/07/2021
+Linha: 341|Chave: India08/07/2021
+Linha: 342|Chave: India08/07/2021
+Linha: 343|Chave: India08/07/2021
+Linha: 412|Chave: India09/02/2022
+Linha: 413|Chave: India09/02/2022
+Linha: 383|Chave: India13/05/2020
+Linha: 384|Chave: India13/05/2020
+Linha: 774|Chave: India19/08/2020
+Linha: 775|Chave: India19/08/2020
+Linha: 776|Chave: India19/08/2020
+Linha: 777|Chave: India19/08/2020
+Linha: 778|Chave: India19/08/2020
+Linha: 922|Chave: India21/10/2021
+Linha: 740|Chave: India24/12/2021
+Linha: 321|Chave: India28/08/2021
+Linha: 322|Chave: India28/08/2021
+Linha: 323|Chave: India28/08/2021
+Linha: 324|Chave: India28/08/2021
+Linha: 325|Chave: India28/08/2021
+Linha: 326|Chave: India28/08/2021
+Linha: 118|Chave: India_Molecular_Diversity07/01/2022
+Linha: 119|Chave: India_Molecular_Diversity07/01/2022
+Linha: 120|Chave: India_Molecular_Diversity07/01/2022
+Linha: 121|Chave: India_Molecular_Diversity07/01/2022
+Linha: 122|Chave: India_Molecular_Diversity07/01/2022
+Linha: 123|Chave: India_Molecular_Diversity07/01/2022
+Linha: 124|Chave: India_Molecular_Diversity07/01/2022
+Linha: 125|Chave: India_Molecular_Diversity07/01/2022
+Linha: 126|Chave: India_Molecular_Diversity07/01/2022
+Linha: 127|Chave: India_Molecular_Diversity07/01/2022
+Linha: 128|Chave: India_Molecular_Diversity07/01/2022
+Linha: 129|Chave: India_Molecular_Diversity07/01/2022
+Linha: 335|Chave: Indonesia,_Indonesia24/06/2021
+Linha: 336|Chave: Indonesia,_Indonesia24/06/2021
+Linha: 345|Chave: Indonesia22/03/2022
+Linha: 346|Chave: Indonesia22/03/2022
+Linha: 347|Chave: Indonesia22/03/2022
+Linha: 348|Chave: Indonesia22/03/2022
+Linha: 349|Chave: Indonesia22/03/2022
+Linha: 350|Chave: Indonesia22/03/2022
+Linha: 351|Chave: Indonesia22/03/2022
+Linha: 352|Chave: Indonesia22/03/2022
+Linha: 353|Chave: Indonesia22/03/2022
+Linha: 818|Chave: Iran01/06/2021
+Linha: 601|Chave: Iran01/11/2021
+Linha: 293|Chave: Iran02/12/2021
+Linha: 512|Chave: Iran04/03/2022
+Linha: 513|Chave: Iran04/03/2022
+Linha: 514|Chave: Iran04/03/2022
+Linha: 515|Chave: Iran04/03/2022
+Linha: 516|Chave: Iran04/03/2022
+Linha: 182|Chave: Iran05/01/2022
+Linha: 183|Chave: Iran05/01/2022
+Linha: 876|Chave: Iran17/11/2021
+Linha: 877|Chave: Iran17/11/2021
+Linha: 878|Chave: Iran17/11/2021
+Linha: 879|Chave: Iran17/11/2021
+Linha: 880|Chave: Iran17/11/2021
+Linha: 881|Chave: Iran17/11/2021
+Linha: 882|Chave: Iran17/11/2021
+Linha: 883|Chave: Iran17/11/2021
+Linha: 884|Chave: Iran17/11/2021
+Linha: 885|Chave: Iran17/11/2021
+Linha: 886|Chave: Iran17/11/2021
+Linha: 511|Chave: Iran22/04/2021
+Linha: 492|Chave: Iran29/10/2020
+Linha: 493|Chave: Iran29/10/2020
+Linha: 280|Chave: Israel10/02/2022
+Linha: 281|Chave: Israel10/02/2022
+Linha: 282|Chave: Israel10/02/2022
+Linha: 283|Chave: Israel10/02/2022
+Linha: 284|Chave: Israel10/02/2022
+Linha: 285|Chave: Israel10/02/2022
+Linha: 693|Chave: Israel10/10/2020
+Linha: 694|Chave: Israel10/10/2020
+Linha: 695|Chave: Israel10/10/2020
+Linha: 696|Chave: Israel10/10/2020
+Linha: 697|Chave: Israel10/10/2020
+Linha: 44 |Chave: Israel28/07/2021
+Linha: 45 |Chave: Israel28/07/2021
+Linha: 46 |Chave: Israel28/07/2021
+Linha: 47 |Chave: Israel28/07/2021
+Linha: 48 |Chave: Israel28/07/2021
+Linha: 49 |Chave: Israel28/07/2021
+Linha: 304|Chave: Israel31/03/2022
+Linha: 815|Chave: Italy01/02/2021
+Linha: 816|Chave: Italy01/02/2021
+Linha: 817|Chave: Italy01/02/2021
+Linha: 286|Chave: Italy01/09/2021
+Linha: 287|Chave: Italy01/09/2021
+Linha: 288|Chave: Italy01/09/2021
+Linha: 289|Chave: Italy01/09/2021
+Linha: 546|Chave: Italy02/06/2021
+Linha: 441|Chave: Italy03/04/2021
+Linha: 442|Chave: Italy03/04/2021
+Linha: 769|Chave: Italy03/10/2020
+Linha: 770|Chave: Italy03/10/2020
+Linha: 771|Chave: Italy03/10/2020
+Linha: 188|Chave: Italy06/01/2022
+Linha: 189|Chave: Italy06/01/2022
+Linha: 916|Chave: Italy06/09/2020
+Linha: 421|Chave: Italy09/12/2020
+Linha: 645|Chave: Italy10/11/2020
+Linha: 3  |Chave: Italy13/05/2020
+Linha: 4  |Chave: Italy13/05/2020
+Linha: 476|Chave: Italy25/08/2021
+Linha: 997|Chave: Italy26/03/2021
+Linha: 998|Chave: Italy26/03/2021
+Linha: 999|Chave: Italy26/03/2021
+Linha: 1000|Chave: Italy26/03/2021
+Linha: 294|Chave: Italy29/09/2021
+Linha: 295|Chave: Italy29/09/2021
+Linha: 296|Chave: Italy29/09/2021
+Linha: 297|Chave: Italy29/09/2021
+Linha: 298|Chave: Italy29/09/2021
+Linha: 414|Chave: Italy30/04/2021
+Linha: 415|Chave: Italy30/04/2021
+Linha: 416|Chave: Italy30/04/2021
+Linha: 417|Chave: Italy30/04/2021
+Linha: 418|Chave: Italy30/04/2021
+Linha: 419|Chave: Italy30/04/2021
+Linha: 144|Chave: Italy30/12/2021
+Linha: 145|Chave: Italy30/12/2021
+Linha: 146|Chave: Italy30/12/2021
+Linha: 147|Chave: Italy30/12/2021
+Linha: 148|Chave: Italy30/12/2021
+Linha: 149|Chave: Italy30/12/2021
+Linha: 424|Chave: Italy31/08/2020
+Linha: 425|Chave: Italy31/08/2020
+Linha: 426|Chave: Italy31/08/2020
+Linha: 427|Chave: Italy31/08/2020
+Linha: 531|Chave: Japan.,_Japan09/11/2021
+Linha: 67 |Chave: Japan02/12/2021
+Linha: 68 |Chave: Japan02/12/2021
+Linha: 69 |Chave: Japan02/12/2021
+Linha: 70 |Chave: Japan02/12/2021
+Linha: 71 |Chave: Japan02/12/2021
+Linha: 72 |Chave: Japan02/12/2021
+Linha: 73 |Chave: Japan02/12/2021
+Linha: 74 |Chave: Japan02/12/2021
+Linha: 75 |Chave: Japan02/12/2021
+Linha: 76 |Chave: Japan02/12/2021
+Linha: 77 |Chave: Japan02/12/2021
+Linha: 59 |Chave: Japan04/06/2021
+Linha: 60 |Chave: Japan04/06/2021
+Linha: 311|Chave: Japan07/08/2020
+Linha: 312|Chave: Japan07/08/2020
+Linha: 313|Chave: Japan07/08/2020
+Linha: 98 |Chave: Japan13/12/2021
+Linha: 99 |Chave: Japan13/12/2021
+Linha: 100|Chave: Japan13/12/2021
+Linha: 101|Chave: Japan13/12/2021
+Linha: 102|Chave: Japan13/12/2021
+Linha: 103|Chave: Japan13/12/2021
+Linha: 104|Chave: Japan13/12/2021
+Linha: 105|Chave: Japan13/12/2021
+Linha: 106|Chave: Japan13/12/2021
+Linha: 107|Chave: Japan13/12/2021
+Linha: 108|Chave: Japan13/12/2021
+Linha: 895|Chave: Japan24/11/2021
+Linha: 491|Chave: Japan26/11/2021
+Linha: 819|Chave: Jordan11/01/2022
+Linha: 820|Chave: Jordan11/01/2022
+Linha: 821|Chave: Jordan11/01/2022
+Linha: 400|Chave: Jordan15/10/2021
+Linha: 401|Chave: Jordan15/10/2021
+Linha: 402|Chave: Jordan15/10/2021
+Linha: 403|Chave: Jordan15/10/2021
+Linha: 404|Chave: Jordan15/10/2021
+Linha: 245|Chave: Kenya24/09/2020
+Linha: 246|Chave: Kenya24/09/2020
+Linha: 247|Chave: Kenya24/09/2020
+Linha: 248|Chave: Kenya24/09/2020
+Linha: 249|Chave: Kenya24/09/2020
+Linha: 250|Chave: Kenya24/09/2020
+Linha: 53 |Chave: Korea01/11/2021
+Linha: 54 |Chave: Korea01/11/2021
+Linha: 55 |Chave: Korea01/11/2021
+Linha: 333|Chave: Korea21/05/2021
+Linha: 334|Chave: Korea21/05/2021
+Linha: 50 |Chave: Korea30/09/2021
+Linha: 83 |Chave: Malaysia19/11/2021
+Linha: 84 |Chave: Malaysia19/11/2021
+Linha: 85 |Chave: Malaysia19/11/2021
+Linha: 86 |Chave: Malaysia19/11/2021
+Linha: 436|Chave: Malaysia23/09/2021
+Linha: 368|Chave: Mexico15/11/2021
+Linha: 204|Chave: Mexico18/01/2022
+Linha: 205|Chave: Mexico18/01/2022
+Linha: 206|Chave: Mexico18/01/2022
+Linha: 207|Chave: Mexico18/01/2022
+Linha: 757|Chave: Morocco11/08/2021
+Linha: 758|Chave: Morocco11/08/2021
+Linha: 759|Chave: Morocco11/08/2021
+Linha: 385|Chave: Morocco23/02/2022
+Linha: 386|Chave: Morocco23/02/2022
+Linha: 387|Chave: Morocco23/02/2022
+Linha: 388|Chave: Morocco23/02/2022
+Linha: 389|Chave: Morocco23/02/2022
+Linha: 612|Chave: Morocco27/07/2020
+Linha: 543|Chave: Netherlands15/02/2021
+Linha: 544|Chave: Netherlands15/02/2021
+Linha: 545|Chave: Netherlands15/02/2021
+Linha: 138|Chave: Netherlands20/12/2021
+Linha: 139|Chave: Netherlands20/12/2021
+Linha: 140|Chave: Netherlands20/12/2021
+Linha: 141|Chave: Netherlands20/12/2021
+Linha: 142|Chave: Netherlands20/12/2021
+Linha: 143|Chave: Netherlands20/12/2021
+Linha: 968|Chave: PR_China15/03/2021
+Linha: 969|Chave: PR_China15/03/2021
+Linha: 970|Chave: PR_China15/03/2021
+Linha: 971|Chave: PR_China15/03/2021
+Linha: 972|Chave: PR_China15/03/2021
+Linha: 741|Chave: Pakistan25/02/2021
+Linha: 742|Chave: Pakistan25/02/2021
+Linha: 743|Chave: Pakistan25/02/2021
+Linha: 744|Chave: Pakistan25/02/2021
+Linha: 537|Chave: Pakistan25/06/2020
+Linha: 196|Chave: People's_Republic_of_China11/01/2022
+Linha: 197|Chave: People's_Republic_of_China11/01/2022
+Linha: 198|Chave: People's_Republic_of_China11/01/2022
+Linha: 199|Chave: People's_Republic_of_China11/01/2022
+Linha: 200|Chave: People's_Republic_of_China11/01/2022
+Linha: 450|Chave: Poland02/06/2021
+Linha: 451|Chave: Poland02/06/2021
+Linha: 452|Chave: Poland02/06/2021
+Linha: 646|Chave: Poland03/06/2020
+Linha: 647|Chave: Poland03/06/2020
+Linha: 648|Chave: Poland03/06/2020
+Linha: 649|Chave: Poland03/06/2020
+Linha: 942|Chave: Poland12/10/2020
+Linha: 130|Chave: Poland12/12/2021
+Linha: 131|Chave: Poland12/12/2021
+Linha: 132|Chave: Poland12/12/2021
+Linha: 133|Chave: Poland12/12/2021
+Linha: 134|Chave: Poland12/12/2021
+Linha: 135|Chave: Poland12/12/2021
+Linha: 136|Chave: Poland12/12/2021
+Linha: 137|Chave: Poland12/12/2021
+Linha: 589|Chave: Poland20/04/2021
+Linha: 590|Chave: Poland20/04/2021
+Linha: 591|Chave: Poland20/04/2021
+Linha: 592|Chave: Poland20/04/2021
+Linha: 593|Chave: Poland20/04/2021
+Linha: 751|Chave: Poland22/10/2021
+Linha: 752|Chave: Poland22/10/2021
+Linha: 753|Chave: Poland22/10/2021
+Linha: 420|Chave: Poland23/08/2021
+Linha: 407|Chave: Poland27/12/2020
+Linha: 408|Chave: Poland27/12/2020
+Linha: 409|Chave: Poland27/12/2020
+Linha: 37 |Chave: Poland29/04/2021
+Linha: 38 |Chave: Poland29/04/2021
+Linha: 39 |Chave: Poland29/04/2021
+Linha: 40 |Chave: Poland29/04/2021
+Linha: 41 |Chave: Poland29/04/2021
+Linha: 42 |Chave: Poland29/04/2021
+Linha: 43 |Chave: Poland29/04/2021
+Linha: 603|Chave: Qatar23/08/2021
+Linha: 212|Chave: Republic_of_Korea25/11/2021
+Linha: 213|Chave: Republic_of_Korea25/11/2021
+Linha: 214|Chave: Republic_of_Korea25/11/2021
+Linha: 519|Chave: Romania03/11/2021
+Linha: 520|Chave: Romania03/11/2021
+Linha: 521|Chave: Romania03/11/2021
+Linha: 522|Chave: Romania03/11/2021
+Linha: 523|Chave: Romania03/11/2021
+Linha: 524|Chave: Romania03/11/2021
+Linha: 525|Chave: Romania03/11/2021
+Linha: 526|Chave: Romania03/11/2021
+Linha: 527|Chave: Romania03/11/2021
+Linha: 528|Chave: Romania03/11/2021
+Linha: 529|Chave: Romania03/11/2021
+Linha: 530|Chave: Romania03/11/2021
+Linha: 605|Chave: Romania27/05/2020
+Linha: 606|Chave: Romania27/05/2020
+Linha: 607|Chave: Romania27/05/2020
+Linha: 608|Chave: Romania27/05/2020
+Linha: 354|Chave: Russia18/05/2020
+Linha: 355|Chave: Russia18/05/2020
+Linha: 356|Chave: Russia18/05/2020
+Linha: 699|Chave: Saudi_Arabia28/05/2021
+Linha: 700|Chave: Saudi_Arabia28/05/2021
+Linha: 701|Chave: Saudi_Arabia28/05/2021
+Linha: 702|Chave: Saudi_Arabia28/05/2021
+Linha: 703|Chave: Saudi_Arabia28/05/2021
+Linha: 704|Chave: Saudi_Arabia28/05/2021
+Linha: 779|Chave: Scotland10/02/2021
+Linha: 780|Chave: Scotland10/02/2021
+Linha: 781|Chave: Scotland10/02/2021
+Linha: 782|Chave: Scotland10/02/2021
+Linha: 783|Chave: Scotland10/02/2021
+Linha: 784|Chave: Scotland10/02/2021
+Linha: 785|Chave: Scotland10/02/2021
+Linha: 786|Chave: Scotland10/02/2021
+Linha: 787|Chave: Scotland10/02/2021
+Linha: 788|Chave: Scotland10/02/2021
+Linha: 789|Chave: Scotland10/02/2021
+Linha: 790|Chave: Scotland10/02/2021
+Linha: 791|Chave: Scotland10/02/2021
+Linha: 792|Chave: Scotland10/02/2021
+Linha: 793|Chave: Scotland10/02/2021
+Linha: 360|Chave: Singapore,_Singapore19/06/2021
+Linha: 361|Chave: Singapore,_Singapore19/06/2021
+Linha: 362|Chave: Singapore,_Singapore19/06/2021
+Linha: 363|Chave: Singapore,_Singapore19/06/2021
+Linha: 364|Chave: Singapore,_Singapore19/06/2021
+Linha: 365|Chave: Singapore,_Singapore19/06/2021
+Linha: 366|Chave: Singapore,_Singapore19/06/2021
+Linha: 367|Chave: Singapore,_Singapore19/06/2021
+Linha: 977|Chave: Singapore18/08/2020
+Linha: 978|Chave: Singapore18/08/2020
+Linha: 979|Chave: Singapore18/08/2020
+Linha: 980|Chave: Singapore18/08/2020
+Linha: 772|Chave: Singapore30/10/2021
+Linha: 773|Chave: Singapore30/10/2021
+Linha: 162|Chave: Slovenia28/12/2021
+Linha: 163|Chave: Slovenia28/12/2021
+Linha: 164|Chave: Slovenia28/12/2021
+Linha: 165|Chave: Slovenia28/12/2021
+Linha: 166|Chave: Slovenia28/12/2021
+Linha: 167|Chave: Slovenia28/12/2021
+Linha: 671|Chave: South_Africa17/09/2020
+Linha: 672|Chave: South_Africa17/09/2020
+Linha: 673|Chave: South_Africa17/09/2020
+Linha: 538|Chave: South_Africa19/04/2021
+Linha: 539|Chave: South_Africa19/04/2021
+Linha: 540|Chave: South_Africa19/04/2021
+Linha: 541|Chave: South_Africa19/04/2021
+Linha: 542|Chave: South_Africa19/04/2021
+Linha: 502|Chave: Spain03/02/2021
+Linha: 503|Chave: Spain03/02/2021
+Linha: 504|Chave: Spain03/02/2021
+Linha: 505|Chave: Spain03/02/2021
+Linha: 506|Chave: Spain03/02/2021
+Linha: 507|Chave: Spain03/02/2021
+Linha: 508|Chave: Spain03/02/2021
+Linha: 509|Chave: Spain03/02/2021
+Linha: 510|Chave: Spain03/02/2021
+Linha: 873|Chave: Spain10/10/2021
+Linha: 874|Chave: Spain10/10/2021
+Linha: 875|Chave: Spain10/10/2021
+Linha: 896|Chave: Spain14/07/2021
+Linha: 437|Chave: Spain20/08/2020
+Linha: 627|Chave: Spain25/11/2020
+Linha: 628|Chave: Spain25/11/2020
+Linha: 629|Chave: Spain25/11/2020
+Linha: 630|Chave: Spain25/11/2020
+Linha: 547|Chave: Spain26/11/2020
+Linha: 548|Chave: Spain26/11/2020
+Linha: 549|Chave: Spain26/11/2020
+Linha: 550|Chave: Spain26/11/2020
+Linha: 551|Chave: Spain26/11/2020
+Linha: 552|Chave: Spain26/11/2020
+Linha: 553|Chave: Spain26/11/2020
+Linha: 554|Chave: Spain26/11/2020
+Linha: 555|Chave: Spain26/11/2020
+Linha: 556|Chave: Spain26/11/2020
+Linha: 557|Chave: Spain26/11/2020
+Linha: 87 |Chave: Spain27/10/2021
+Linha: 484|Chave: Spain28/10/2021
+Linha: 215|Chave: Sweden20/01/2022
+Linha: 216|Chave: Sweden20/01/2022
+Linha: 217|Chave: Sweden20/01/2022
+Linha: 218|Chave: Sweden20/01/2022
+Linha: 109|Chave: Switzerland17/12/2021
+Linha: 110|Chave: Switzerland17/12/2021
+Linha: 111|Chave: Switzerland17/12/2021
+Linha: 344|Chave: Switzerland30/03/2022
+Linha: 617|Chave: Taiwan21/02/2021
+Linha: 112|Chave: Taiwan21/12/2021
+Linha: 113|Chave: Taiwan21/12/2021
+Linha: 114|Chave: Taiwan21/12/2021
+Linha: 115|Chave: Taiwan21/12/2021
+Linha: 116|Chave: Taiwan21/12/2021
+Linha: 432|Chave: Thailand30/11/2021
+Linha: 433|Chave: Thailand30/11/2021
+Linha: 434|Chave: Thailand30/11/2021
+Linha: 435|Chave: Thailand30/11/2021
+Linha: 674|Chave: The_Netherlands28/04/2021
+Linha: 675|Chave: The_Netherlands28/04/2021
+Linha: 676|Chave: The_Netherlands28/04/2021
+Linha: 640|Chave: The_Netherlands29/05/2020
+Linha: 219|Chave: Turkey01/01/2021
+Linha: 220|Chave: Turkey01/01/2021
+Linha: 618|Chave: Turkey10/08/2021
+Linha: 619|Chave: Turkey10/08/2021
+Linha: 620|Chave: Turkey10/08/2021
+Linha: 621|Chave: Turkey10/08/2021
+Linha: 622|Chave: Turkey10/08/2021
+Linha: 623|Chave: Turkey10/08/2021
+Linha: 624|Chave: Turkey10/08/2021
+Linha: 625|Chave: Turkey10/08/2021
+Linha: 657|Chave: Turkey14/04/2021
+Linha: 376|Chave: U.S.A14/02/2022
+Linha: 377|Chave: U.S.A14/02/2022
+Linha: 378|Chave: U.S.A14/02/2022
+Linha: 428|Chave: UK02/03/2021
+Linha: 429|Chave: UK02/03/2021
+Linha: 430|Chave: UK02/03/2021
+Linha: 184|Chave: UK06/01/2022
+Linha: 185|Chave: UK06/01/2022
+Linha: 186|Chave: UK06/01/2022
+Linha: 187|Chave: UK06/01/2022
+Linha: 558|Chave: UK10/07/2020
+Linha: 559|Chave: UK10/07/2020
+Linha: 560|Chave: UK10/07/2020
+Linha: 561|Chave: UK10/07/2020
+Linha: 562|Chave: UK10/07/2020
+Linha: 563|Chave: UK10/07/2020
+Linha: 564|Chave: UK10/07/2020
+Linha: 852|Chave: UK12/11/2020
+Linha: 853|Chave: UK12/11/2020
+Linha: 854|Chave: UK12/11/2020
+Linha: 855|Chave: UK12/11/2020
+Linha: 856|Chave: UK12/11/2020
+Linha: 857|Chave: UK12/11/2020
+Linha: 259|Chave: UK13/10/2020
+Linha: 260|Chave: UK13/10/2020
+Linha: 261|Chave: UK13/10/2020
+Linha: 262|Chave: UK13/10/2020
+Linha: 263|Chave: UK13/10/2020
+Linha: 264|Chave: UK13/10/2020
+Linha: 265|Chave: UK13/10/2020
+Linha: 266|Chave: UK13/10/2020
+Linha: 267|Chave: UK13/10/2020
+Linha: 467|Chave: UK16/11/2020
+Linha: 468|Chave: UK16/11/2020
+Linha: 469|Chave: UK16/11/2020
+Linha: 470|Chave: UK16/11/2020
+Linha: 858|Chave: UK17/08/2020
+Linha: 859|Chave: UK17/08/2020
+Linha: 860|Chave: UK17/08/2020
+Linha: 861|Chave: UK17/08/2020
+Linha: 604|Chave: UK19/01/2021
+Linha: 251|Chave: UK21/10/2020
+Linha: 252|Chave: UK21/10/2020
+Linha: 253|Chave: UK21/10/2020
+Linha: 254|Chave: UK21/10/2020
+Linha: 255|Chave: UK21/10/2020
+Linha: 256|Chave: UK21/10/2020
+Linha: 257|Chave: UK21/10/2020
+Linha: 258|Chave: UK21/10/2020
+Linha: 268|Chave: UK23/12/2020
+Linha: 269|Chave: UK23/12/2020
+Linha: 270|Chave: UK23/12/2020
+Linha: 271|Chave: UK23/12/2020
+Linha: 272|Chave: UK23/12/2020
+Linha: 273|Chave: UK23/12/2020
+Linha: 274|Chave: UK23/12/2020
+Linha: 275|Chave: UK23/12/2020
+Linha: 276|Chave: UK23/12/2020
+Linha: 277|Chave: UK23/12/2020
+Linha: 278|Chave: UK23/12/2020
+Linha: 279|Chave: UK23/12/2020
+Linha: 488|Chave: UK26/07/2021
+Linha: 489|Chave: UK26/07/2021
+Linha: 490|Chave: UK26/07/2021
+Linha: 337|Chave: UK28/09/2020
+Linha: 338|Chave: UK28/09/2020
+Linha: 396|Chave: USA,_USA02/07/2020
+Linha: 397|Chave: USA,_USA02/07/2020
+Linha: 398|Chave: USA,_USA02/07/2020
+Linha: 399|Chave: USA,_USA02/07/2020
+Linha: 943|Chave: USA,_USA22/12/2020
+Linha: 944|Chave: USA,_USA22/12/2020
+Linha: 410|Chave: USA01/06/2021
+Linha: 411|Chave: USA01/06/2021
+Linha: 532|Chave: USA01/09/2021
+Linha: 533|Chave: USA01/09/2021
+Linha: 534|Chave: USA01/09/2021
+Linha: 535|Chave: USA01/09/2021
+Linha: 536|Chave: USA01/09/2021
+Linha: 952|Chave: USA03/01/2022
+Linha: 953|Chave: USA03/01/2022
+Linha: 906|Chave: USA04/06/2020
+Linha: 807|Chave: USA04/07/2020
+Linha: 808|Chave: USA04/07/2020
+Linha: 809|Chave: USA04/07/2020
+Linha: 810|Chave: USA04/07/2020
+Linha: 658|Chave: USA06/10/2020
+Linha: 659|Chave: USA06/10/2020
+Linha: 660|Chave: USA06/10/2020
+Linha: 661|Chave: USA06/10/2020
+Linha: 662|Chave: USA06/10/2020
+Linha: 663|Chave: USA06/10/2020
+Linha: 1  |Chave: USA07/02/2020
+Linha: 2  |Chave: USA07/02/2020
+Linha: 150|Chave: USA08/01/2022
+Linha: 151|Chave: USA08/01/2022
+Linha: 152|Chave: USA08/01/2022
+Linha: 153|Chave: USA08/01/2022
+Linha: 154|Chave: USA08/01/2022
+Linha: 5  |Chave: USA08/08/2020
+Linha: 6  |Chave: USA08/08/2020
+Linha: 7  |Chave: USA08/08/2020
+Linha: 8  |Chave: USA08/08/2020
+Linha: 9  |Chave: USA08/08/2020
+Linha: 867|Chave: USA09/12/2020
+Linha: 868|Chave: USA09/12/2020
+Linha: 869|Chave: USA09/12/2020
+Linha: 870|Chave: USA09/12/2020
+Linha: 871|Chave: USA09/12/2020
+Linha: 872|Chave: USA09/12/2020
+Linha: 155|Chave: USA10/01/2022
+Linha: 156|Chave: USA10/01/2022
+Linha: 157|Chave: USA10/01/2022
+Linha: 158|Chave: USA10/01/2022
+Linha: 159|Chave: USA10/01/2022
+Linha: 160|Chave: USA10/01/2022
+Linha: 161|Chave: USA10/01/2022
+Linha: 933|Chave: USA12/04/2021
+Linha: 934|Chave: USA12/04/2021
+Linha: 664|Chave: USA13/09/2020
+Linha: 665|Chave: USA13/09/2020
+Linha: 666|Chave: USA13/09/2020
+Linha: 667|Chave: USA13/09/2020
+Linha: 668|Chave: USA13/09/2020
+Linha: 208|Chave: USA14/11/2021
+Linha: 192|Chave: USA15/01/2022
+Linha: 193|Chave: USA15/01/2022
+Linha: 194|Chave: USA15/01/2022
+Linha: 195|Chave: USA15/01/2022
+Linha: 209|Chave: USA15/11/2021
+Linha: 210|Chave: USA15/11/2021
+Linha: 211|Chave: USA15/11/2021
+Linha: 431|Chave: USA16/05/2021
+Linha: 626|Chave: USA16/07/2020
+Linha: 17 |Chave: USA16/09/2020
+Linha: 18 |Chave: USA16/09/2020
+Linha: 19 |Chave: USA16/09/2020
+Linha: 956|Chave: USA17/03/2021
+Linha: 957|Chave: USA17/03/2021
+Linha: 958|Chave: USA17/03/2021
+Linha: 959|Chave: USA17/03/2021
+Linha: 960|Chave: USA17/03/2021
+Linha: 961|Chave: USA17/03/2021
+Linha: 962|Chave: USA17/03/2021
+Linha: 963|Chave: USA17/03/2021
+Linha: 964|Chave: USA17/03/2021
+Linha: 29 |Chave: USA19/04/2021
+Linha: 30 |Chave: USA19/04/2021
+Linha: 31 |Chave: USA19/04/2021
+Linha: 32 |Chave: USA19/04/2021
+Linha: 305|Chave: USA19/04/2021
+Linha: 306|Chave: USA19/04/2021
+Linha: 307|Chave: USA19/04/2021
+Linha: 308|Chave: USA19/04/2021
+Linha: 309|Chave: USA19/04/2021
+Linha: 310|Chave: USA19/04/2021
+Linha: 23 |Chave: USA20/03/2020
+Linha: 761|Chave: USA20/11/2020
+Linha: 762|Chave: USA20/11/2020
+Linha: 763|Chave: USA20/11/2020
+Linha: 764|Chave: USA20/11/2020
+Linha: 765|Chave: USA20/11/2020
+Linha: 24 |Chave: USA21/02/2020
+Linha: 25 |Chave: USA21/02/2020
+Linha: 480|Chave: USA23/01/2021
+Linha: 481|Chave: USA23/01/2021
+Linha: 482|Chave: USA23/01/2021
+Linha: 483|Chave: USA23/01/2021
+Linha: 954|Chave: USA24/06/2020
+Linha: 955|Chave: USA24/06/2020
+Linha: 10 |Chave: USA24/07/2020
+Linha: 11 |Chave: USA24/07/2020
+Linha: 12 |Chave: USA24/07/2020
+Linha: 13 |Chave: USA24/07/2020
+Linha: 14 |Chave: USA24/07/2020
+Linha: 15 |Chave: USA24/07/2020
+Linha: 16 |Chave: USA24/07/2020
+Linha: 799|Chave: USA24/08/2020
+Linha: 800|Chave: USA24/08/2020
+Linha: 801|Chave: USA24/08/2020
+Linha: 802|Chave: USA24/08/2020
+Linha: 803|Chave: USA24/08/2020
+Linha: 804|Chave: USA24/08/2020
+Linha: 805|Chave: USA24/08/2020
+Linha: 806|Chave: USA24/08/2020
+Linha: 422|Chave: USA25/12/2020
+Linha: 423|Chave: USA25/12/2020
+Linha: 822|Chave: USA26/07/2020
+Linha: 823|Chave: USA26/07/2020
+Linha: 824|Chave: USA26/07/2020
+Linha: 825|Chave: USA26/07/2020
+Linha: 826|Chave: USA26/07/2020
+Linha: 827|Chave: USA26/07/2020
+Linha: 828|Chave: USA26/07/2020
+Linha: 829|Chave: USA26/07/2020
+Linha: 830|Chave: USA26/07/2020
+Linha: 831|Chave: USA26/07/2020
+Linha: 832|Chave: USA26/07/2020
+Linha: 833|Chave: USA26/07/2020
+Linha: 834|Chave: USA26/07/2020
+Linha: 835|Chave: USA26/07/2020
+Linha: 836|Chave: USA26/07/2020
+Linha: 837|Chave: USA26/07/2020
+Linha: 838|Chave: USA26/07/2020
+Linha: 839|Chave: USA26/07/2020
+Linha: 840|Chave: USA26/07/2020
+Linha: 841|Chave: USA26/07/2020
+Linha: 842|Chave: USA26/07/2020
+Linha: 843|Chave: USA26/07/2020
+Linha: 844|Chave: USA26/07/2020
+Linha: 845|Chave: USA26/07/2020
+Linha: 846|Chave: USA26/07/2020
+Linha: 847|Chave: USA26/07/2020
+Linha: 848|Chave: USA26/07/2020
+Linha: 849|Chave: USA26/07/2020
+Linha: 850|Chave: USA26/07/2020
+Linha: 598|Chave: USA26/08/2021
+Linha: 599|Chave: USA26/08/2021
+Linha: 600|Chave: USA26/08/2021
+Linha: 754|Chave: USA27/06/2020
+Linha: 755|Chave: USA27/06/2020
+Linha: 756|Chave: USA27/06/2020
+Linha: 974|Chave: USA27/07/2021
+Linha: 975|Chave: USA27/07/2021
+Linha: 976|Chave: USA27/07/2021
+Linha: 58 |Chave: USA27/11/2021
+Linha: 935|Chave: USA27/12/2020
+Linha: 936|Chave: USA27/12/2020
+Linha: 937|Chave: USA27/12/2020
+Linha: 938|Chave: USA27/12/2020
+Linha: 939|Chave: USA27/12/2020
+Linha: 940|Chave: USA27/12/2020
+Linha: 941|Chave: USA27/12/2020
+Linha: 569|Chave: USA30/12/2020
+Linha: 570|Chave: USA30/12/2020
+Linha: 571|Chave: USA30/12/2020
+Linha: 572|Chave: USA30/12/2020
+Linha: 573|Chave: USA30/12/2020
+Linha: 574|Chave: USA30/12/2020
+Linha: 575|Chave: USA30/12/2020
+Linha: 567|Chave: Uganda18/11/2021
+Linha: 568|Chave: Uganda18/11/2021
+Linha: 652|Chave: United_Arab_Emirates01/08/2020
+Linha: 653|Chave: United_Arab_Emirates01/08/2020
+Linha: 888|Chave: United_Arab_Emirates15/09/2021
+Linha: 889|Chave: United_Arab_Emirates15/09/2021
+Linha: 890|Chave: United_Arab_Emirates15/09/2021
+Linha: 891|Chave: United_Arab_Emirates15/09/2021
+Linha: 892|Chave: United_Arab_Emirates15/09/2021
+Linha: 893|Chave: United_Arab_Emirates15/09/2021
+Linha: 894|Chave: United_Arab_Emirates15/09/2021
+Linha: 61 |Chave: United_Kingdom02/12/2021
+Linha: 62 |Chave: United_Kingdom02/12/2021
+Linha: 63 |Chave: United_Kingdom02/12/2021
+Linha: 64 |Chave: United_Kingdom02/12/2021
+Linha: 65 |Chave: United_Kingdom02/12/2021
+Linha: 66 |Chave: United_Kingdom02/12/2021
+Linha: 578|Chave: United_Kingdom13/07/2020
+Linha: 579|Chave: United_Kingdom13/07/2020
+Linha: 580|Chave: United_Kingdom13/07/2020
+Linha: 581|Chave: United_Kingdom13/07/2020
+Linha: 582|Chave: United_Kingdom13/07/2020
+Linha: 583|Chave: United_Kingdom13/07/2020
+Linha: 584|Chave: United_Kingdom13/07/2020
+Linha: 711|Chave: United_States24/02/2021
+Linha: 712|Chave: United_States24/02/2021
+Linha: 713|Chave: United_States24/02/2021
+Linha: 714|Chave: United_States24/02/2021
+Linha: 715|Chave: United_States24/02/2021
+Linha: 716|Chave: United_States24/02/2021
+Linha: 717|Chave: United_States24/02/2021
+Linha: 650|Chave: United_States_of_America27/08/2020
+Linha: 651|Chave: United_States_of_America27/08/2020
+Linha: 565|Chave: Venezuela07/01/2022
+Linha: 566|Chave: Venezuela07/01/2022
+Linha: 78 |Chave: Zimbabwe28/10/2021
+Linha: 79 |Chave: Zimbabwe28/10/2021
+Linha: 80 |Chave: Zimbabwe28/10/2021
+Linha: 81 |Chave: Zimbabwe28/10/2021
+Linha: 82 |Chave: Zimbabwe28/10/2021

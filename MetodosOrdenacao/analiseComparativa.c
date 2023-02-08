@@ -12,6 +12,7 @@ typedef struct{
 
 
 //SelectionSort
+//Pior Caso O(n²) - Melhor Caso O(n²)
 int smallerIndex(Linha vet[], int tam, int ini){
     int min = ini, j;
     for(j=ini+1; j<tam; j++){
@@ -37,6 +38,7 @@ void selectionSort(Linha vet[], int tam){
 }
 
 //InsertionSort
+//Pior Caso O(n²) - Melhor Caso O(n)
 void insertionSort(Linha list[], int n){
     int i, j;
     int next;
@@ -54,6 +56,7 @@ void insertionSort(Linha list[], int n){
 }
 
 //BubbleSort
+//Pior Caso O(n²) - Melhor Caso O(n)
 void bubbleSort(Linha vet[], int tam){
     int i,j, aux;
     Linha e;
@@ -71,6 +74,7 @@ void bubbleSort(Linha vet[], int tam){
 }
 
 //QuickSort
+//Pior Caso O(n²) - Melhor Caso O(n.logn)
 int separa (Linha v[], int p, int r) {
     int c = v[r].populacao; // pivô
     int t, j = p;
@@ -131,6 +135,7 @@ void quicksort(Linha vet[], int esq, int dir){
 */
 
 //MergeSort
+////Pior Caso O(n.logn) - Melhor Caso O(n.logn)
 void intercala (int p, int q, int r, Linha v[]){
     Linha *w;
     w = malloc ((r-p) * sizeof (Linha));
